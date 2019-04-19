@@ -2,3 +2,11 @@
 .ipynb_checkpoints/ProjectGutenberg_DataExtraction-checkpoint.ipynb
 .ipynb_checkpoints/ProjectGutenberg_ModelingEvalutation-checkpoint.ipynb
 .ipynb_checkpoints/ProjectGutenberg_ProcessingEDA-checkpoint.ipynb
+.ipynb_checkpoints/README-checkpoint.md
+.DS_Store
+1_DataExtraction/.ipynb_checkpoints/ProjectGutenberg_DataExtraction-checkpoint.ipynb
+1_DataExtraction/.ipynb_checkpoints/README-checkpoint.md
+2_Preprocessing/.ipynb_checkpoints/ProjectGutenberg_ProcessingEDA-checkpoint.ipynb
+2_Preprocessing/.ipynb_checkpoints/README-checkpoint.md
+3_ClassificationClustering/.ipynb_checkpoints/ProjectGutenberg_ModelingEvalutation-checkpoint.ipynb
+3_ClassificationClustering/.ipynb_checkpoints/README-checkpoint.md
