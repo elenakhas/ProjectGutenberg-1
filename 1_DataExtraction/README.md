@@ -29,11 +29,11 @@ as well as these system libraries for convenience functions: csv, datetime, time
 
 __Instructions for use:__
 We provide our Project Gutenberg corpus tool in a package with the following: 
-a. a 'pg_dataextraction.py' file for execution. 
-b. a 'ProjectGutenberg_DataExtraction.ipynb' [Jupyter](https://jupyter.org/) notebook with details and explanations of our approach as well as general analysis and code for the creation of a local copy of a [mongoDB](https://www.mongodb.com/) database. 
-c. a 'randomstate.pickle' file that contains a pickled version of the seed state we used to generate our corpus. This will allow any other user to replicate the generatuion of our corpora on another machine. 
-d. a 'PG-eng-author-min3v2019419.pickle' file that contains a pickled version of a completely populated GutenbergCorpusBuilder object together with associated Author instances for authors (and their books) admitted into our corpus. 
-e. a 'data' folder containing plain text files. Each plain text file contains k sentences from each author's oeuvre. k is set at the level based on the following parameters: sent_num/min_books. This generates a corpus that is evenly spread, in terms of number of books and number of sentences, across all authors admitted into the corpora. 
+-a. a 'pg_dataextraction.py' file for execution. 
+-b. a 'ProjectGutenberg_DataExtraction.ipynb' [Jupyter](https://jupyter.org/) notebook with details and explanations of our approach as well as general analysis and code for the creation of a local copy of a [mongoDB](https://www.mongodb.com/) database. 
+-c. a 'randomstate.pickle' file that contains a pickled version of the seed state we used to generate our corpus. This will allow any other user to replicate the generatuion of our corpora on another machine. 
+-d. a 'PG-eng-author-min3v2019419.pickle' file that contains a pickled version of a completely populated GutenbergCorpusBuilder object together with associated Author instances for authors (and their books) admitted into our corpus. 
+-e. a 'data' folder containing plain text files. Each plain text file contains k sentences from each author's oeuvre. k is set at the level based on the following parameters: sent_num/min_books. This generates a corpus that is evenly spread, in terms of number of books and number of sentences, across all authors admitted into the corpora. 
 
 1. To understand our approach, we recommend starting with the ProjectGutenberg_DataExtraction.ipynb. It contains all the relevant code as well as detailed step-by-step comments and analysis for our program and the corpus generated. 
 2. To replicate the collection of our corpus (or collect corpora, by generating a new random seed and/or changing the parameter settings), use the pg_dataextraction.py file. 
