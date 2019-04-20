@@ -40,15 +40,16 @@ __Instructions for use:__
 We provide our Project Gutenberg corpus tool in a package with the following: 
 
 _* a. a ['pg_dataextraction.py'](https://github.com/hankelvin/ProjectGutenberg/blob/master/1_DataExtraction/pg_dataextraction.py) file for execution. _
-_* b. a ['ProjectGutenberg_DataExtraction.ipynb'](https://github.com/hankelvin/ProjectGutenberg/blob/master/1_DataExtraction/ProjectGutenberg_DataExtraction.ipynb) Jupyter notebook with details and explanations of our approach as well as general analysis and code for the creation of a local copy of a [mongoDB](https://www.mongodb.com/) database. _
-_* c. a ['randomstate.pickle'](https://github.com/hankelvin/ProjectGutenberg/blob/master/1_DataExtraction/randomstate.pickle) file that contains a pickled version of the seed state we used to generate our corpus. This will allow any other user to replicate the generatuion of our corpora on another machine. _
-_* d. a ['PG-eng-author-min3v2019419.pickle'](https://github.com/hankelvin/ProjectGutenberg/blob/master/1_DataExtraction/PG-eng-author-min3v2019420.pickle) file that contains a pickled version of a completely populated GutenbergCorpusBuilder object together with associated Author instances for authors (and their books) admitted into our corpus. _
-_* e. a ['data'](https://github.com/hankelvin/ProjectGutenberg/tree/master/1_DataExtraction/data) folder containing exports of the corpus in various formats. 
+* b. a ['ProjectGutenberg_DataExtraction.ipynb'](https://github.com/hankelvin/ProjectGutenberg/blob/master/1_DataExtraction/ProjectGutenberg_DataExtraction.ipynb) Jupyter notebook with details and explanations of our approach as well as general analysis and code for the creation of a local copy of a [mongoDB](https://www.mongodb.com/) database. 
+* c. a ['randomstate.pickle'](https://github.com/hankelvin/ProjectGutenberg/blob/master/1_DataExtraction/randomstate.pickle) file that contains a pickled version of the seed state we used to generate our corpus. This will allow any other user to replicate the generatuion of our corpora on another machine. 
+* d. a ['PG-eng-author-min3v2019419.pickle'](https://github.com/hankelvin/ProjectGutenberg/blob/master/1_DataExtraction/PG-eng-author-min3v2019420.pickle) file that contains a pickled version of a completely populated GutenbergCorpusBuilder object together with associated Author instances for authors (and their books) admitted into our corpus. _
+* e. a ['data'](https://github.com/hankelvin/ProjectGutenberg/tree/master/1_DataExtraction/data) folder containing exports of the corpus in various formats. 
     * /booksample_txt: Each plain text file contains k sentences from each author's oeuvre. k is set at the level based on the following parameters: sent_num/min_books. This generates a corpus that is evenly spread, in terms of number of books and number of sentences, across all authors admitted into the corpora. 
     * /booksample_csv: Each file has the same content as those in /booksample_txt. 
     * /wholebook_csv: Each file contains the entire text for an admitted book into the corpus, except Project Gutenberg boilerplate metadata as well as a percentage of the text file removed as a buffer (to exclude general publisher information). 
     * /data/mongo_dumps: Two json files. One json file contains the entire collection of authors information exported from a mongoDB database instance, the other contains the entire collection of books information exported from a mongoDB database instance.
-    _
+   
+- - - - - - - - - - - - - - - 
 
 1. To understand our approach, we recommend starting with the ProjectGutenberg_DataExtraction.ipynb. It contains all the relevant code as well as detailed step-by-step comments and analysis for our program and the corpus generated. 
 2. To replicate the collection of our corpus (or collect corpora, by generating a new random seed and/or changing the parameter settings), use the pg_dataextraction.py file. 
