@@ -12,3 +12,9 @@
 3_ClassificationClustering/.ipynb_checkpoints/README-checkpoint.md
 1_DataExtraction/.ipynb_checkpoints/pg_dataextraction-checkpoint.py
 1_DataExtraction/__pycache__/pg_dataextraction.cpython-37.pyc
+2_Preprocessing/.ipynb_checkpoints/utils_loaddataframe-checkpoint.py
+2_Preprocessing/.ipynb_checkpoints/utils_tokeniser-checkpoint.py
+2_Preprocessing/.ipynb_checkpoints/utils_vectoriser-checkpoint.py
+2_Preprocessing/__pycache__/utils_loaddataframe.cpython-37.pyc
+2_Preprocessing/__pycache__/utils_tokeniser.cpython-37.pyc
+2_Preprocessing/__pycache__/utils_vectoriser.cpython-37.pyc
