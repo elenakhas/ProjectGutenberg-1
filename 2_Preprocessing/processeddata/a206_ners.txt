@@ -35,11 +35,11 @@ Farquhar
 						
 						
 						
-		Farquhar		Farquhar		
+		Farquhar				
 						
 						
 						
-		Farquhar		Farquhar		
+		Farquhar				
 						
 						
 						
@@ -73,7 +73,7 @@ Farquhar
 						
 						
 						
-						
+				a month ago		
 						
 						
 						
@@ -84,33 +84,33 @@ Farquhar
 Proboscidae						
 						
 						
-		Cock		Cock		
+		Cock				
 						
 						
 						
-		Ferryman		Ferryman		
-						
-						
-						
-						
-						
-		the King of the FlySpeck Islands		the King of the FlySpeck Islands		
-						
-						
-						
-		Shotgun	Bird		Shotgun	Bird		
-						
-						
-		Lion		Lion		
-		Lion		Lion		
-						
-						
-		Victor		Victor		
+		Ferryman				
 						
 						
 						
 						
 						
+		the King of the FlySpeck Islands				
+						
+						
+						
+		Shotgun	Bird				
+						
+						
+		Lion				
+		Lion				
+						
+						
+		Victor				
+						
+						
+						
+						
+				some years		
 						
 						
 						
@@ -118,8 +118,8 @@ Proboscidae
 						
 						
 Bulldog						
-		Ass		Ass		
-Ghargaroo		M'gwana		M'gwana		
+		Ass				
+Ghargaroo		M'gwana				
 						
 						
 						
@@ -131,13 +131,13 @@ Assassin	California
 						
 						
 						
-		Farmer	Farmer	Fox		Farmer	Farmer	Fox		
+		Farmer	Farmer	Fox				
 						
-		Saint Peter		Saint Peter		
+		Saint Peter				
+				One day		
 						
 						
-						
-		Behold		Behold		
+		Behold				
 						
 						
 						
@@ -146,7 +146,7 @@ Assassin	California
 Gookul	Madagonia						
 						
 						
-		Wicked Sinner		Wicked Sinner		
+		Wicked Sinner				
 						
 						
 						
@@ -155,16 +155,17 @@ Gookul	Madagonia
 						
 						
 						
-		the Race Horse		the Race Horse		
-		Witch		Witch		
-						
-		Engaging Gentleman		Engaging Gentleman		
+		the Race Horse				
+		Witch				
+				the day		
+		Engaging Gentleman				
 						
 						
 						
 						
 						
 CONVALESCENT						
+				JULY FOURTH		
 						
 						
 						
@@ -172,16 +173,16 @@ CONVALESCENT
 						
 						
 						
+		Jim Beckwourth's				
 						
-		Jim Beckwourth's		Jim Beckwourth's		
 						
 						
 						
 						
 						
 						
+		CLAY				
 						
-		CLAY		CLAY		
 						
 						
 						
@@ -218,14 +219,15 @@ CONVALESCENT
 						
 						
 						
+		INGLORIOUS MILTON				
 						
-		INGLORIOUS MILTON		INGLORIOUS MILTON		
 						
+				YEAR'S CASUALTIES		
 						
 						
+		Dennison				
 						
 						
-		Dennison		Dennison		
 						
 						
 						
@@ -233,9 +235,9 @@ CONVALESCENT
 						
 						
 						
+		Ambrose Bierce		1906		
 						
 						
-		Ambrose Bierce		Ambrose Bierce		
 						
 						
 						
@@ -245,9 +247,7 @@ CONVALESCENT
 						
 						
 						
-						
-						
-		Ambrose Bierce		Ambrose Bierce		
+		Ambrose Bierce				
 						
 						
 						

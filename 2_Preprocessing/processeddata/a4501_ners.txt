@@ -1,43 +1,43 @@
-		Joseph	Jackson		Joseph	Jackson		
-		Brigham Young		Brigham Young		
-		Charles Merrick		Charles Merrick		
+		Joseph	Jackson				
+		Brigham Young				
+		Charles Merrick				
 						
 						
 						
 						
 						
-		Joseph	Sidney Rigdon	Frederick G. Williams		Joseph	Sidney Rigdon	Frederick G. Williams		
+		Joseph	Sidney Rigdon	Frederick G. Williams				
 						
-		Joseph	Oliver		Joseph	Oliver		
-Illinois						
-						
-						
+		Joseph	Oliver				
+Illinois				winter	spring		
 						
 						
-		Joseph		Joseph		
 						
-		Nauvoo		Nauvoo		
+						
+		Joseph				
+						
+		Nauvoo				
 Jackson county						
 						
+				July 20th		
 						
 						
 						
 						
 						
 						
+		Joseph				
 						
-		Joseph		Joseph		
-						
-Jackson						
-Utah						
+Jackson				thirty days		
+Utah				five years		
 						
 						
 Nephi						
 						
-		Parley P. Pratt		Parley P. Pratt		
-		Joseph	Emma	Whitney		Joseph	Emma	Whitney		
-		Elder Taylor		Elder Taylor		
-						
+		Parley P. Pratt				
+		Joseph	Emma	Whitney				
+		Elder Taylor				
+				the next summer		
 						
 						
 						
@@ -49,34 +49,34 @@ Utah
 						
 						
 						
-		Joseph		Joseph		
+		Joseph				
 						
-		Kimball		Kimball		
+		Kimball				
 						
 						
-		John Taylor		John Taylor		
-						
-Nephi		Laman	Lemuel	Sam		Laman	Lemuel	Sam		
+		John Taylor				
+				that summer		
+Nephi		Laman	Lemuel	Sam				
 						
 						
 						
 						
 Independence						
-		Joseph		Joseph		
-		Joseph		Joseph		
+		Joseph				
+		Joseph				
 						
-		Dunklin		Dunklin		
-						
-						
-						
-						
-		Jesus		Jesus		
+		Dunklin				
 						
 						
 						
 						
+		Jesus				
 						
 						
+						
+						
+				eight months		
+				June		
 						
 						
 Buffalo	Ohio						
@@ -86,7 +86,7 @@ Buffalo	Ohio
 						
 						
 						
-		Jesus		Jesus		
+		Jesus				
 						
 						
 						
@@ -98,14 +98,14 @@ Christiania
 						
 Norway						
 						
-		Henrik	Marie		Henrik	Marie		
+		Henrik	Marie		every four or five years		
 						
-		Rupert	Peter		Rupert	Peter		
+		Rupert	Peter				
 						
 						
-		Rupert		Rupert		
-		Rupert		Rupert		
-		Ames	Nina	Rupert		Ames	Nina	Rupert		
+		Rupert				
+		Rupert				
+		Ames	Nina	Rupert				
 						
 						
 						
@@ -122,19 +122,9 @@ Polandthere
 						
 						
 						
-		Rupert		Rupert		
+		Rupert				
 						
-Norway						
-						
-						
-						
-						
-						
-						
-						
-						
-		Bjornson		Bjornson		
-Norway		Henrik Bogstad		Henrik Bogstad		
+Norway				two years		
 						
 						
 						
@@ -143,6 +133,15 @@ Norway		Henrik Bogstad		Henrik Bogstad
 						
 						
 						
+		Bjornson				
+Norway		Henrik Bogstad				
+						
+						
+						
+						
+						
+						
+				midsummer		
 						
 						
 						
@@ -150,17 +149,18 @@ Norway		Henrik Bogstad		Henrik Bogstad
 						
 						
 						
-		Rachel		Rachel		
+						
+		Rachel				
 						
 						
+				chasteneth	scourgeth		
+		Janson	Rupert	Drybench				
+		Jack				
 						
-		Janson	Rupert	Drybench		Janson	Rupert	Drybench		
-		Jack		Jack		
 						
+		Wilton	Rupert		the end of the first year		
 						
-		Wilton	Rupert		Wilton	Rupert		
-						
-		Signe		Signe		
+		Signe				
 						
 						
 						
@@ -174,7 +174,7 @@ Carlia
 						
 						
 						
-		Zed		Zed		
+		Zed				
 						
 						
 						
@@ -187,7 +187,7 @@ Dorian
 						
 						
 						
-		Uncle Zed		Uncle Zed		
+		Uncle Zed				
 						
 						
 						
@@ -199,28 +199,28 @@ Dorian
 						
 						
 						
-		Darwin		Darwin		
+		Darwin				
 						
 						
 						
 						
-Carlia		Lamont		Lamont		
+Carlia		Lamont				
 						
 						
 						
 						
-		Uncle Zed		Uncle Zed		
-		Hickson		Hickson		
+		Uncle Zed				
+		Hickson				
 						
 						
 						
+				winter		
 						
 						
 						
+		Uncle Zed				
 						
-		Uncle Zed		Uncle Zed		
-						
-		Uncle Zed		Uncle Zed		
+		Uncle Zed				
 						
 						
 						
@@ -234,9 +234,9 @@ Carlia
 Carlia						
 						
 						
-		Trent		Trent		
+		Trent				
 						
-						
+				The Christmas holidays that season		
 						
 						
 						

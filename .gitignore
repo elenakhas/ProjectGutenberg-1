@@ -18,3 +18,5 @@
 2_Preprocessing/__pycache__/utils_loaddataframe.cpython-37.pyc
 2_Preprocessing/__pycache__/utils_tokeniser.cpython-37.pyc
 2_Preprocessing/__pycache__/utils_vectoriser.cpython-37.pyc
+2_Preprocessing/.ipynb_checkpoints/utils_statsgenerator-checkpoint.py
+2_Preprocessing/__pycache__/utils_statsgenerator.cpython-37.pyc

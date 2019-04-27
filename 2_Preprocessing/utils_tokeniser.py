@@ -4,9 +4,7 @@ import pandas as pd
 # !pip install benepar[cpu]
 import benepar
 benepar.download('benepar_en2')
-from benepar.spacy_plugin import BeneparComponent
 nlp = spacy.load('en_core_web_sm')
-nlp.add_pipe(BeneparComponent("benepar_en2"))
 # load Berkeley Neural Parser https://github.com/nikitakit/self-attentive-parser 
 # we use the benepar_en2 pre-trained model for a less resource (memory and run-time) intensive architecture 
 # for our system 
@@ -96,7 +94,7 @@ def process_one_author(author_id, functions, tag = None, readpath = "./data/book
                 # write to file
                 nersfile.write("\t".join(_function_results["places"])+"\t\t")
                 nersfile.write("\t".join(_function_results["persons"])+"\t\t")
-                nersfile.write("\t".join(_function_results["persons"])+"\t\t")
+                nersfile.write("\t".join(_function_results["dates"])+"\t\t")
                 nersfile.write("\n")          
                 # extend lists in dict
                 _entities["places"].extend(_function_results["places"])
@@ -140,6 +138,71 @@ def process_one_author(author_id, functions, tag = None, readpath = "./data/book
     # return global container. this contains all the features for every of the author's sentence
     return results_dict
 
+def generate_dataframe(authornum, author_dict, select_postags,select_parsetags):
+    '''
+    A dictionary containing the features generated from the utils_tokeniser.process_one_author process
+    '''
+    
+    # the structure of the values are lists, except the one for namedentities which has keys for 
+    # places, persons and dates. 
+    # 1. create a dataframe that appends for each pos tag 
+    # 2. create an initial dataframe with n rows, the first column is the authornum, as well as literary movements  
+    
+    author_numsents = len(author_dict['sentences'])
+    authornum_col = [authornum]*author_numsents
+    all_sent = []
+    for sentence_num in range(author_numsents):   
+        one_sent = {}
+        for key in author_dict:
+            if key== "postags":
+                pos_counter = {i:[0] for i in  select_postags}
+                for postag in author_dict[key][sentence_num]: 
+                    try: 
+                        pos_counter[postag][0]+=1
+                    except: 
+                        pass
+                for key2 in pos_counter:
+                    one_sent["pos_"+key2.lower()] = pos_counter[key2][0]
+            
+            elif key== "parsetags":
+                parse_counter = {i:[0] for i in  select_parsetags}
+                for parsetag in author_dict[key][sentence_num]: 
+                    try: 
+                        parse_counter[parsetag][0]+=1
+                    except: 
+                        pass
+                for key2 in parse_counter:
+                    one_sent["parse_"+key2.lower()] = parse_counter[key2][0]
+
+            elif key == "namedentities":
+                # under the namedentities key, there are 3 other dictionary keys
+                col_names = [ne_type for ne_type in author_dict[key][sentence_num]]
+                ne_dict = {ne_type:[] for ne_type in col_names}
+                for col_name in col_names:
+                    ne_dict[col_name] = author_dict[key][sentence_num][col_name]
+                for key2 in ne_dict:
+                    one_sent["ne_"+key2] = ne_dict[key2]
+
+            elif key == "concreteness":
+                col_names = key
+                values = author_dict[key][sentence_num]
+                one_sent[key] = values[0]
+            
+            elif key == "sentences":
+                col_names = key
+                values = author_dict[key][sentence_num]
+                one_sent[key] = values[0]
+
+            else: 
+                col_names = key 
+                values = author_dict[key][sentence_num]
+                one_sent[key] = values
+             
+        all_sent.append(one_sent)
+    all_sent_df = pd.DataFrame(all_sent)
+    all_sent_df.insert(loc=0, column="authornum", value=authornum_col)
+    all_sent_df["sent_length"] = all_sent_df["tokens"].apply(lambda x: len(x))
+    return all_sent_df
 
 def create_spacysentdoc(sentence):
     '''Creates a spaCy document object from a string.
@@ -172,7 +235,8 @@ def get_lemmas(spacysentdoc, tag = None):
     if tag == None:
         lemmas = [token.lemma_ for token in spacysentdoc]
     else:
-        lemmas = [token.lemma_ for token in spacysentdoc if token.pos_== tag]
+        lemmas = [token.lemma_ for token in spacysentdoc if token.pos_== tag \
+                  and not token.is_punct and not token.text in to_remove]
     return "lemmas", lemmas
 
 def get_postags(spacysentdoc):
@@ -189,8 +253,16 @@ def get_parsetags(spacysentdoc):
     Inputs: a list of sentences
     Outputs: a list of parse trees for all the sentences in a list
     '''    
+    # getting the sentence from the spacysentdoc, so as to align with 
+    # all other function methods (to use the process_one_author wrapper function)
+    parsetree = parser.parse(get_sentence(spacysentdoc)[1][0])
+    # find only the non-terminal nodes
+    parsetags_raw = re.findall( r"\[*Tree\('[A-Z]+", parsetree.__repr__()) 
+    # using the nltk.Tree.__repr__ to bypass the common gs installation issue
+    # https://stackoverflow.com/questions/39007755/cant-find-ghostscript-in-nltk?noredirect=1&lq=1
     
-    parsetags = [span._.parse_string.split(" ")[0].lstrip("(") for span in spacysentdoc]
+    # extract only the non-terminal symbol 
+    parsetags = [tag.split("('")[1] for tag in parsetags_raw]
     return "parsetags", parsetags
 
 def get_namedentities(spacysentdoc):
