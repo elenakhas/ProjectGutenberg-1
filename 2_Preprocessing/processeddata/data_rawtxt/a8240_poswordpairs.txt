@@ -1,0 +1,249 @@
+PRON()He	VERB()threw	ADJ()his	NOUN()bag	PART()over	CCONJ()and	VERB()began	VERB()shinnying	PART()up	PUNCT().		
+CCONJ()And	ADP()while	PRON()he	VERB()was	VERB()trying	PART()to	VERB()cash	DET()the	NOUN()check	PRON()she	VERB()gave	PRON()him	PUNCT(),	PRON()she	VERB()visited	PROPN()Dr.	PROPN()Buehl	PUNCT(),	PART()to	VERB()come	ADV()back	ADP()with	DET()a	NOUN()squad	ADP()of	ADJ()quiet	PUNCT(),	ADJ()refined	NOUN()strongarm	NOUN()boys	NOUN()who	VERB()made	ADJ()sure	PROPN()Dane	VERB()reached	PROPN()Buehl	PART()'s	PUNCT()"	NOUN()rest	NOUN()home	PUNCT()"	ADV()safely	PUNCT().		
+ADV()When	ADJ()his	NOUN()proof	VERB()was	ADJ()complete	CCONJ()and	ADJ()irrefutable	PUNCT(),	PRON()he	VERB()took	PRON()it	ADP()to	ADJ()his	NOUN()editorto	VERB()be	VERB()fired	PUNCT(),	ADV()politely	CCONJ()but	ADV()coldly	PUNCT().		
+PRON()It	VERB()would	VERB()be	ADJ()easy	PART()to	VERB()slip	PUNCT(),	PART()to	VERB()use	DET()an	NOUN()overdose	ADP()of	NOUN()something	PUNCT(),	PART()to	VERB()make	ADJ()sure	PROPN()Dane	VERB()was	VERB()killed	PUNCT().		
+ADV()Why	VERB()should	ADV()n't	PRON()I	PUNCT()?	PUNCT()"		
+PRON()He	VERB()moved	ADP()from	NOUN()shadow	PART()to	VERB()shadow	PUNCT(),	ADJ()his	NOUN()hair	VERB()prickling	ADP()along	DET()the	NOUN()base	ADP()of	ADJ()his	NOUN()neck	PUNCT().		
+PUNCT()"	ADV()So	PRON()I	VERB()suppose	PRON()I	VERB()'m	ADJ()committed	ADP()to	ADJ()your	NOUN()boobyhatch	ADV()again	PUNCT()?	PUNCT()"		
+CCONJ()And	ADV()there	VERB()were	NOUN()stories	ADP()of	NOUN()corpses	ADJ()that	VERB()had	ADV()apparently	VERB()fought	CCONJ()and	ADJ()twisted	ADP()in	ADJ()their	NOUN()coffins	ADV()still	PUNCT().		
+DET()The	NOUN()shock	NOUN()treatmentor	ADJ()whatever	PROPN()Buehl	VERB()would	VERB()use	ADP()under	DET()the	NOUN()name	ADP()of	NOUN()shock	VERB()treatmentwould	VERB()begin	ADP()at	ADV()once	PUNCT().		
+NOUN()Fear	VERB()was	ADJ()thick	ADP()in	ADJ()his	NOUN()throat	ADV()now	PUNCT().		
+PROPN()Dane	VERB()had	VERB()spent	NUM()ten	NOUN()years	ADP()in	NOUN()fear	ADP()of	VERB()being	VERB()discovered	ADP()by	NOUN()themand	ADV()now	PROPN()Buehl	VERB()had	PRON()him	PUNCT().		
+PRON()He	VERB()was	ADV()too	ADJ()late	PUNCT().		
+PUNCT()*	SPACE()      	PUNCT()*	SPACE()      	PUNCT()*	SPACE()      	PUNCT()*	SPACE()      	PUNCT()*	PRON()It	VERB()could	VERB()have	VERB()been	ADJ()worse	PUNCT().		
+VERB()Promise	PART()to	VERB()be	ADJ()quiet	CCONJ()and	PRON()we	VERB()'ll	VERB()release	PRON()you	PUNCT().		
+PUNCT()"	INTJ()Yeah	PUNCT(),	PUNCT()"	PROPN()Dane	VERB()agreed	PUNCT().		
+CCONJ()But	PRON()it	VERB()must	VERB()have	VERB()been	ADV()only	DET()some	NOUN()animal	PUNCT().		
+ADV()There	VERB()was	DET()no	NOUN()way	ADP()of	VERB()guessing	NOUN()what	DET()an	NOUN()alien	VERB()might	VERB()do	ADP()to	NOUN()anyone	NOUN()who	VERB()discovered	ADP()that	DET()all	NOUN()men	VERB()were	ADV()not	ADP()humanthat	DET()some	VERB()were	PUNCT()...	NOUN()zombies	PUNCT().		
+PRON()It	VERB()had	VERB()seemed	PART()to	VERB()work	PUNCT(),	ADV()too	PUNCT().		
+PRON()They	VERB()had	VERB()thought	ADP()of	NOUN()everything	PUNCT(),	VERB()including	DET()a	NOUN()coat	PART()to	VERB()cover	ADJ()his	ADJ()dirtsoiled	NOUN()clothes	ADP()as	PRON()they	VERB()took	PRON()him	ADP()up	DET()the	NOUN()elevator	ADP()to	ADV()where	PROPN()Buehl	CCONJ()and	PROPN()Sylvia	VERB()were	VERB()waiting	ADP()for	PRON()him	PUNCT().		
+PROPN()Ye	VERB()shall	VERB()know	DET()the	NOUN()truth	PUNCT(),	CCONJ()and	DET()the	NOUN()truth	VERB()shall	VERB()make	PRON()you	ADJ()free	PUNCT().	ADV()Then	PRON()he	VERB()met	PROPN()Sylvia	ADP()by	NOUN()accident	ADP()after	VERB()losing	ADJ()his	ADJ()fifth	NOUN()joba	NOUN()girl	NOUN()who	VERB()had	VERB()inherited	DET()a	NOUN()fortune	ADJ()big	ADV()enough	PART()to	VERB()spread	ADJ()his	NOUN()message	ADP()in	VERB()paid	NOUN()ads	ADP()across	DET()the	NOUN()country	PUNCT().		
+CCONJ()But	DET()that	VERB()would	ADV()n't	VERB()matter	PUNCT().		
+PUNCT()"	INTJ()No	PUNCT(),	PRON()I	VERB()guess	PRON()I	VERB()did	ADV()n't	ADV()really	VERB()expect	NOUN()anything	PUNCT().		
+DET()This	NOUN()time	PRON()we	VERB()'ll	VERB()have	PART()to	VERB()use	NOUN()shock	NOUN()treatment	PUNCT().		
+PRON()It	VERB()was	ADJ()logical	ADV()enough	PART()to	VERB()shake	PROPN()Dane	PART()'s	NOUN()faith	PUNCT(),	ADP()until	PRON()he	VERB()came	ADP()across	PROPN()Milo	PROPN()Blanding	PART()'s	NOUN()picture	ADP()in	DET()a	NOUN()magazine	NOUN()article	ADP()on	NOUN()society	ADP()in	PROPN()St.	PROPN()Louis	PUNCT().		
+PRON()He	VERB()might	VERB()have	VERB()guessed	PUNCT().		
+ADV()Even	ADP()if	PRON()he	VERB()could	VERB()drag	PART()back	NOUN()what	PRON()he	VERB()might	VERB()find	PUNCT(),	ADP()without	DET()the	NOUN()change	VERB()being	VERB()completed	PUNCT(),	PRON()they	VERB()would	ADV()n't	VERB()accept	DET()the	NOUN()evidence	PUNCT().		
+ADV()There	VERB()are	NOUN()monsters	NOUN()who	VERB()come	ADV()back	ADP()from	DET()the	ADJ()dead	PUNCT()!		
+PRON()He	VERB()reached	PRON()them	ADP()at	ADJ()last	PUNCT(),	VERB()fumbling	PRON()them	ADJ()open	PUNCT().		
+DET()The	NOUN()works	PUNCT(),	ADP()if	NOUN()what	PRON()he	VERB()knew	ADP()of	NOUN()psychiatry	VERB()was	ADJ()correct	PUNCT().		
+PRON()He	VERB()was	VERB()operating	ADP()on	ADV()purely	ADJ()automatic	NOUN()habits	ADV()now	PUNCT(),	DET()the	NOUN()reaction	ADP()from	DET()the	NOUN()night	CCONJ()and	ADJ()his	NOUN()failure	VERB()numbing	PRON()him	ADV()emotionally	PUNCT().		
+PUNCT()"	PRON()You	VERB()can	VERB()pick	PART()up	ADJ()your	NOUN()pay	ADP()on	DET()the	NOUN()way	ADV()out	PUNCT().		
+PUNCT()"	INTJ()Hey	PUNCT(),	PROPN()Burke	PUNCT(),	ADV()there	VERB()'s	DET()no	NOUN()corpse	ADV()here	PUNCT()!	PUNCT()"		
+PRON()It	VERB()had	VERB()been	ADJ()worse	ADV()before	PUNCT().		
+ADV()There	VERB()was	DET()a	NOUN()pause	CCONJ()and	ADV()then	DET()a	NOUN()sigh	PUNCT().		
+DET()An	ADJ()exaggerated	NOUN()reaction	PUNCT(),	CCONJ()but	NOUN()nothing	ADV()really	ADJ()abnormal	PUNCT().		
+PUNCT()"	VERB()Let	PRON()him	VERB()go	PUNCT().		
+NOUN()What	ADV()else	VERB()could	PRON()he	VERB()do	PUNCT()?		
+ADV()There	VERB()were	ADV()still	NOUN()accounts	ADP()of	NOUN()corpses	VERB()turned	PART()up	ADP()with	DET()the	NOUN()nails	CCONJ()and	NOUN()hair	VERB()grown	ADV()long	ADP()in	DET()the	NOUN()grave	PUNCT().		
+ADV()Even	ADP()if	PRON()we	VERB()could	VERB()get	DET()the	NOUN()order	ADP()without	NOUN()causewhich	PRON()we	VERB()ca	ADV()n't	PUNCT()!	PUNCT()"		
+PRON()It	VERB()was	ADJ()difficult	PUNCT(),	CCONJ()but	PRON()he	VERB()made	PRON()it	ADV()finally	PUNCT(),	VERB()dropping	ADP()onto	DET()the	ADJ()soft	NOUN()grass	ADP()beyond	PUNCT().		
+CCONJ()Nor	VERB()was	PROPN()Harding	PROPN()aloneDane	VERB()found	ADJ()enough	NOUN()evidence	PART()to	VERB()know	ADV()there	VERB()were	NOUN()others	PUNCT().		
+PUNCT()"	ADV()So	NOUN()what	PUNCT()?		
+CCONJ()Or	ADV()there	VERB()were	NOUN()ways	ADP()of	VERB()making	ADJ()sure	PRON()it	VERB()did	ADV()n't	VERB()matter	PUNCT().		
+PRON()You	VERB()'ll	VERB()find	ADJ()your	NOUN()clothes	ADP()in	DET()that	NOUN()room	PUNCT().		
+PROPN()Burke	PART()'s	NOUN()words	VERB()killed	DET()any	NOUN()hopes	PROPN()Dane	VERB()had	ADP()at	ADV()once	PUNCT().		
+ADP()At	PROPN()Dane	PART()'s	VERB()sickened	NOUN()nod	PUNCT(),	PRON()he	VERB()gestured	ADP()to	DET()the	NOUN()others	PUNCT().		
+ADJ()Other	NOUN()editors	VERB()were	ADV()less	ADJ()polite	PUNCT().		
+NOUN()What	VERB()was	PRON()it	ADP()like	ADP()for	DET()an	NOUN()alien	ADV()then	PUNCT(),	VERB()going	ADV()slowly	ADJ()mad	ADP()while	PRON()it	VERB()waited	ADP()for	ADJ()true	NOUN()death	PUNCT()?		
+PRON()He	VERB()shivered	PUNCT().		
+PUNCT()*	SPACE()      	PUNCT()*	SPACE()      	PUNCT()*	SPACE()      	PUNCT()*	SPACE()      	PUNCT()*	ADV()There	VERB()were	DET()no	NOUN()warning	VERB()sounds	DET()this	ADJ()timeonly	NOUN()hands	ADJ()that	VERB()slipped	ADP()under	ADJ()his	NOUN()arms	CCONJ()and	ADP()across	ADJ()his	NOUN()mouth	PUNCT(),	VERB()lifting	PRON()him	ADV()easily	ADP()from	DET()the	NOUN()grave	PUNCT().		
+CCONJ()And	PRON()they	VERB()called	PRON()him	DET()a	NOUN()fanatic	PUNCT()!		
+PROPN()Dane	VERB()tried	DET()the	NOUN()window	ADV()again	PUNCT(),	CCONJ()but	PRON()it	VERB()was	ADJ()hopeless	PUNCT().		
+PUNCT()"	CCONJ()But	ADP()after	VERB()seeing	ADJ()your	NOUN()father	PUNCT(),	PRON()you	VERB()ca	ADV()n't	VERB()associate	NOUN()blood	ADP()with	PRON()yourselfyou	VERB()see	PRON()it	ADP()as	DET()a	ADJ()horrible	NOUN()wound	ADP()on	PROPN()Harding	PUNCT().		
+ADV()Again	PUNCT(),	DET()a	NOUN()sound	ADP()in	DET()the	NOUN()darkness	ADP()above	VERB()left	PRON()him	VERB()hovering	CCONJ()and	ADJ()sick	ADP()in	DET()the	NOUN()hole	PUNCT().		
+CCONJ()And	VERB()make	PRON()it	ADJ()quick	PUNCT(),	ADP()before	PRON()I	VERB()change	ADJ()my	NOUN()mind	CCONJ()and	VERB()call	DET()the	NOUN()boys	ADP()in	ADJ()white	PUNCT()!	PUNCT()"		
+DET()A	NOUN()match	VERB()flared	NOUN()briefly	CCONJ()and	PRON()he	VERB()was	VERB()looking	ADP()into	DET()the	NOUN()face	ADP()of	PROPN()Buehl	PART()'s	ADJ()chief	NOUN()strongarm	NOUN()man	PUNCT().		
+PRON()It	VERB()would	VERB()be	ADJ()dark	ADV()enough	ADP()for	PRON()him	PART()to	VERB()taxi	PART()out	ADP()to	PROPN()Oakhaven	PROPN()Cemetery	PUNCT(),	ADV()where	PROPN()Blanding	VERB()had	VERB()been	VERB()buried	PUNCT().		
+PRON()He	VERB()swung	DET()the	NOUN()lid	PART()up	CCONJ()and	VERB()began	VERB()groping	ADP()for	DET()the	NOUN()camera	PUNCT().		
+DET()The	NOUN()man	VERB()beamed	ADV()paternally	PUNCT(),	VERB()chuckling	ADP()as	PRON()he	VERB()added	NOUN()what	PRON()he	VERB()must	VERB()have	VERB()considered	DET()the	NOUN()clincher	PUNCT().		
+DET()The	NOUN()aliens	VERB()would	VERB()get	PRON()him	PUNCT(),	ADP()of	NOUN()course	PUNCT(),	ADV()when	DET()the	NOUN()story	VERB()broke	PUNCT(),	CCONJ()but	DET()a	VERB()warned	NOUN()humanity	VERB()could	VERB()cope	ADP()with	PRON()them	PUNCT().		
+ADV()Then	PRON()you	VERB()come	ADP()to	ADP()from	DET()a	NOUN()concussion	PUNCT().		
+PRON()He	VERB()uncovered	DET()the	NOUN()top	ADP()of	DET()the	NOUN()casket	ADP()with	NOUN()hands	ADV()already	VERB()blistering	PUNCT().		
+PRON()It	VERB()had	VERB()taken	PROPN()Dane	NUM()two	NOUN()days	ADP()of	VERB()crawling	CCONJ()and	VERB()hiding	PART()to	VERB()get	ADV()back	ADP()to	ADJ()his	NOUN()group	PUNCT(),	ADV()too	ADJ()exhausted	PART()to	VERB()report	PROPN()Harding	PART()'s	NOUN()death	PUNCT().		
+ADP()Under	ADJ()different	NOUN()circumstances	PUNCT()...	PUNCT()"	ADV()So	PRON()you	VERB()found	PRON()me	PUNCT()?	PUNCT()"		
+CCONJ()But	PRON()he	VERB()went	PART()on	ADV()doggedly	VERB()trying	CCONJ()and	VERB()failing	PUNCT().		
+CCONJ()But	PRON()he	VERB()'d	VERB()been	ADV()less	ADJ()lucky	ADP()about	PROPN()HardingBlanding	PUNCT().		
+PRON()You	VERB()know	PRON()it	VERB()was	DET()a	NOUN()nightmare	PUNCT(),	CCONJ()but	PRON()you	VERB()do	ADV()n't	ADV()really	VERB()believe	PRON()it	ADV()even	ADV()now	PUNCT().		
+PUNCT()"	PRON()I	VERB()'m	ADJ()afraid	ADV()so	PUNCT(),	VERB()Danefor	DET()a	NOUN()while	PUNCT(),	ADV()anyhow	PUNCT().		
+VERB()Would	PRON()it	VERB()be	PROPN()Harding	ADP()thereor	DET()some	ADJ()monstrous	NOUN()thing	ADV()still	VERB()changing	PUNCT()?		
+PRON()He	VERB()'d	VERB()seen	PROPN()Blanding	PART()'s	VERB()coffinand	DET()the	ADJ()big	PUNCT(),	ADJ()solid	NOUN()metal	NOUN()casket	ADP()around	PRON()it	ADJ()that	VERB()could	ADV()n't	VERB()be	VERB()cracked	ADP()by	DET()any	NOUN()amount	ADP()of	NOUN()effort	CCONJ()and	NOUN()strength	PUNCT().		
+CCONJ()And	ADP()that	ADJ()literalminded	NOUN()self	PUNCT(),	ADJ()your	NOUN()subconscious	PUNCT(),	VERB()saw	PRON()him	ADP()after	PRON()he	VERB()died	PUNCT().		
+PRON()He	VERB()gave	PART()up	VERB()trying	PART()to	VERB()understand	ADJ()their	ADJ()alien	NOUN()motivations	PUNCT().		
+CCONJ()But	PRON()they	VERB()had	VERB()thought	ADP()of	NOUN()everything	PUNCT().		
+PRON()He	VERB()could	ADV()n't	VERB()be	ADJ()sure	PUNCT().		
+INTJ()Okay	PUNCT()?	PUNCT()"		
+NOUN()What	VERB()happened	ADV()when	DET()a	NOUN()creature	ADJ()that	VERB()could	VERB()survive	ADV()even	DET()the	NOUN()poison	ADP()of	VERB()embalming	NOUN()fluids	CCONJ()and	DET()the	NOUN()draining	ADP()of	ADJ()all	DET()the	NOUN()blood	VERB()woke	PART()up	ADP()in	ADJ()such	DET()a	NOUN()coffin	PUNCT()?		
+ADV()Where	ADV()else	VERB()was	ADV()there	DET()the	NOUN()chance	ADP()for	ADJ()all	DET()the	ADJ()refined	PUNCT(),	ADJ()modern	NOUN()torture	VERB()needed	PART()to	VERB()burn	PART()out	DET()a	NOUN()man	PART()'s	NOUN()mind	PUNCT()?		
+NOUN()Lack	ADP()of	DET()a	ADJ()clearer	NOUN()pattern	ADP()of	NOUN()attack	VERB()made	PRON()him	VERB()consider	DET()the	NOUN()possibility	ADP()of	ADJ()human	NOUN()mutation	PUNCT(),	CCONJ()but	ADJ()such	NOUN()tissue	VERB()was	ADV()too	ADV()wildly	ADJ()different	PUNCT(),	CCONJ()and	DET()the	NOUN()invasion	VERB()had	VERB()begun	ADV()long	ADP()before	NOUN()atomics	CCONJ()or	NOUN()Xrays	PUNCT().		
+PRON()You	VERB()'ll	VERB()feel	ADJ()better	PUNCT().	PUNCT()"		
+PRON()I	VERB()checked	PART()up	ADP()on	PRON()him	PUNCT().		
+DET()All	NOUN()men	VERB()are	ADJ()mortal	PUNCT();	PROPN()Harding	VERB()is	ADV()not	ADJ()mortal	PUNCT();	ADV()therefore	PUNCT(),	PROPN()Harding	VERB()is	ADV()not	DET()a	NOUN()man	PUNCT()!		
+DET()An	NOUN()alien	VERB()could	VERB()have	VERB()gotten	PART()away	ADP()by	ADV()simply	VERB()committing	NOUN()suicide	CCONJ()and	VERB()being	VERB()carried	ADP()from	DET()the	NOUN()rest	NOUN()home	PUNCT(),	CCONJ()but	PROPN()Dane	VERB()had	PART()to	VERB()do	PRON()it	DET()the	ADJ()hard	NOUN()way	PUNCT(),	VERB()watching	ADJ()his	NOUN()chance	CCONJ()and	VERB()using	NOUN()commando	NOUN()tactics	ADP()on	DET()a	NOUN()guard	NOUN()who	VERB()had	VERB()come	PART()to	VERB()accept	PRON()him	ADP()as	DET()a	ADJ()harmless	NOUN()nut	PUNCT().		
+PRON()We	VERB()'ll	VERB()have	PRON()you	ADP()out	ADP()of	ADV()here	ADP()in	DET()no	NOUN()time	PUNCT().	PUNCT()"		
+DET()The	PROPN()U.	PROPN()N.	VERB()has	VERB()ruled	ADP()that	NOUN()whoever	VERB()comes	PART()back	ADV()first	ADP()with	NOUN()mapping	NOUN()surveys	VERB()can	VERB()claim	DET()the	NOUN()territory	VERB()mapped	PUNCT().		
+PROPN()Bill	VERB()sighed	PUNCT(),	VERB()scratching	ADV()unconsciously	PUNCT(),	CCONJ()and	VERB()made	ADJ()his	NOUN()way	ADV()somehow	ADP()out	ADP()to	ADJ()his	NOUN()suit	PUNCT(),	VERB()climbing	ADP()into	PRON()it	PUNCT().		
+ADV()There	VERB()was	DET()no	NOUN()room	ADP()for	VERB()pacing	PART()up	CCONJ()and	ADV()down	PUNCT().		
+PUNCT()"	ADV()Where	VERB()do	PRON()you	VERB()want	PRON()me	PART()to	VERB()put	PART()down	PUNCT()?	PUNCT()"		
+NUM()Fifteen	NOUN()minutes	PUNCT().		
+PRON()He	VERB()'d	VERB()have	PART()to	VERB()relay	DET()that	NOUN()information	ADV()back	ADP()to	DET()the	NOUN()medics	PUNCT().		
+PRON()It	ADV()simply	VERB()unbalanced	PRON()him	PUNCT(),	ADP()without	ADV()really	VERB()relieving	DET()the	NOUN()itching	PUNCT().		
+DET()The	NOUN()metal	NOUN()sheets	VERB()were	ADJ()fine	PUNCT().		
+NOUN()Men	VERB()had	VERB()developed	NOUN()immunity	ADP()to	DET()the	NOUN()germs	VERB()found	ADP()on	PROPN()Earth	PUNCT();	CCONJ()but	ADV()just	ADP()as	NOUN()smallpox	VERB()had	VERB()proved	ADV()so	ADJ()fatal	ADP()to	DET()the	PROPN()Indians	CCONJ()and	NOUN()syphilis	ADP()to	PROPN()Europe	ADV()when	PRON()they	ADV()first	VERB()hit	PUNCT(),	ADV()there	VERB()was	DET()no	VERB()telling	ADV()how	ADV()wildly	DET()this	VERB()might	VERB()progress	PUNCT().		
+PUNCT()"	PRON()We	VERB()'ve	VERB()got	DET()another	NOUN()missile	VERB()coming	PUNCT(),	ADP()with	NOUN()metal	NOUN()foil	ADP()for	DET()the	NOUN()maps	CCONJ()and	VERB()photosplus	DET()a	ADJ()small	NOUN()copying	NOUN()camera	PUNCT().		
+PRON()He	VERB()checked	DET()the	NOUN()dust	NOUN()tray	ADV()again	PUNCT(),	VERB()tried	VERB()figuring	PART()out	ADJ()other	NOUN()orbits	PUNCT(),	VERB()managed	PART()to	VERB()locate	DET()the	PROPN()Moon	PUNCT(),	CCONJ()and	VERB()scratched	PUNCT().		
+DET()The	NOUN()doctor	VERB()picked	PART()up	ADP()as	PRON()they	VERB()went	ADV()along	PUNCT().		
+DET()That	VERB()took	ADJ()less	ADP()than	NUM()five	NOUN()minutes	PUNCT().		
+PUNCT()"	VERB()Look	PUNCT(),	ADJ()next	NOUN()time	PUNCT().		
+PRON()They	VERB()could	VERB()pick	PART()up	ADJ()his	NOUN()corpse	CCONJ()and	VERB()cremate	PRON()it	ADP()at	DET()the	ADJ()same	NOUN()time	PUNCT(),	ADP()for	DET()all	PRON()he	VERB()cared	ADV()right	ADV()now	PUNCT().		
+PUNCT()"	PRON()We	VERB()'re	PUNCT()....		
+ADV()There	VERB()was	DET()no	NOUN()response	ADP()to	ADJ()his	NOUN()signals	PUNCT().		
+PRON()You	VERB()'re	ADP()about	ADP()out	ADP()on	ADJ()your	NOUN()feet	PUNCT().	PUNCT()"		
+PRON()He	VERB()'d	VERB()begun	PART()to	VERB()notice	DET()the	NOUN()itching	NOUN()yesterday	PUNCT();	NOUN()today	PRON()he	VERB()was	VERB()breaking	PART()out	ADP()in	DET()the	NOUN()rash	PUNCT().		
+PROPN()Bill	VERB()thought	PRON()it	PART()over	PUNCT(),	ADJ()his	NOUN()head	ADJ()thick	PUNCT().		
+DET()The	NOUN()rash	VERB()seemed	PART()to	VERB()get	ADJ()worse	ADP()on	ADJ()his	NOUN()body	ADP()as	PRON()he	VERB()looked	ADP()at	PRON()it	PUNCT().		
+ADP()At	DET()the	NOUN()end	PUNCT(),	DET()the	NOUN()doctor	VERB()was	VERB()helping	PRON()him	PUNCT().		
+CCONJ()But	VERB()keep	PRON()us	ADJ()informed	ADP()if	NOUN()anything	NOUN()slips	PUNCT().		
+PRON()He	VERB()looked	ADP()for	NOUN()something	PART()to	VERB()do	PUNCT(),	CCONJ()but	VERB()found	NOUN()nothing	PUNCT().		
+DET()The	NOUN()salves	VERB()had	VERB()helped	DET()the	VERB()itching	DET()a	ADJ()little	PUNCT(),	CCONJ()but	ADV()not	ADJ()much	PUNCT().		
+DET()The	NOUN()doctor	VERB()was	ADJ()young	PUNCT(),	CCONJ()and	ADV()obviously	ADJ()scared	PUNCT(),	CCONJ()but	VERB()fighting	ADJ()his	NOUN()fear	PUNCT().		
+PUNCT()"	PRON()I	VERB()do	ADV()n't	ADV()knowdon't	VERB()think	ADV()so	PUNCT(),	CCONJ()but	PRON()I	VERB()did	ADV()n't	VERB()look	PUNCT().	PUNCT()"		
+CCONJ()But	ADP()on	VERB()contacting	NOUN()Earth	ADP()by	NOUN()radar	PUNCT(),	PRON()he	VERB()was	VERB()assured	ADP()that	DET()that	VERB()might	VERB()be	VERB()expected	PUNCT().		
+PUNCT()"	CCONJ()And	ADV()how	ADP()about	VERB()having	DET()those	NOUN()doctors	ADJ()ready	PUNCT()?	PUNCT()"		
+PROPN()Moonwalking	VERB()was	ADJ()tricky	ADP()until	PRON()you	VERB()learned	ADV()how	PUNCT().		
+CCONJ()But	NOUN()somebody	VERB()had	VERB()been	ADP()in	DET()a	NOUN()hurry	ADP()for	NOUN()volunteers	PUNCT(),	CCONJ()and	VERB()given	DET()the	NOUN()man	DET()no	ADJ()basic	NOUN()training	ADV()at	ADV()all	PUNCT().		
+PRON()He	VERB()'ll	VERB()set	PART()down	ADP()in	ADP()about	NUM()nine	NOUN()hours	PUNCT().		
+PUNCT()"	PRON()You	VERB()think	PRON()you	VERB()can	VERB()land	ADV()here	ADP()with	NOUN()whatever	PRON()you	VERB()'ve	VERB()got	PUNCT(),	NOUN()man	PUNCT()?		
+ADV()Then	ADJ()his	NOUN()stomach	VERB()began	VERB()showing	NOUN()distress	NOUN()signs	PUNCT().		
+DET()Some	NOUN()plant	NOUN()irritant	PUNCT(),	ADP()like	NOUN()poison	NOUN()ivy	PUNCT()?		
+DET()The	NOUN()suit	VERB()was	VERB()put	PART()on	CCONJ()and	ADV()off	ADP()with	ADJ()automatic	NOUN()machine	NOUN()grapples	PUNCT(),	ADP()so	PRON()he	VERB()could	ADV()n't	VERB()have	VERB()touched	PRON()it	PUNCT().		
+PRON()He	VERB()dragged	PART()out	DET()the	NOUN()photo	CCONJ()and	NOUN()copying	NOUN()equipment	PUNCT(),	ADP()under	DET()a	ADJ()red	NOUN()light	PUNCT().		
+DET()The	NOUN()supplies	ADJ()that	VERB()had	ADV()already	VERB()been	VERB()sent	PART()up	ADP()by	DET()the	ADJ()superfast	ADJ()unmanned	NOUN()missiles	VERB()would	VERB()give	PRON()him	NOUN()something	PART()to	VERB()do	PUNCT(),	ADP()at	ADJ()least	PUNCT().		
+NUM()Two	ADJ()other	NOUN()nations	VERB()have	NOUN()ships	PART()out	ADV()now	PUNCT().		
+PRON()He	VERB()knew	DET()that	PUNCT().		
+VERB()Holding	NOUN()control	VERB()was	DET()the	ADJ()hardest	NOUN()job	PRON()he	VERB()'d	ADV()ever	VERB()done	PUNCT().		
+PUNCT()"	NOUN()Earth	ADP()to	PROPN()Mars	PROPN()Rocket	NOUN()I.		
+PRON()He	VERB()tried	VERB()shifting	DET()the	NOUN()supplies	ADV()around	ADP()on	ADJ()his	NOUN()back	PUNCT(),	VERB()getting	PRON()them	PART()to	VERB()press	ADP()against	DET()the	NOUN()spots	ADP()of	NOUN()torment	ADP()as	PRON()he	VERB()walked	PUNCT().		
+PRON()He	VERB()began	PART()to	VERB()feel	ADJ()worse	PUNCT().		
+DET()The	NOUN()tubes	VERB()might	VERB()burn	PART()out	ADP()in	ADJ()continuous	NOUN()firing	PUNCT().		
+DET()This	NOUN()time	PUNCT(),	PRON()he	VERB()stumbled	ADV()also	ADP()as	PRON()he	VERB()made	ADJ()his	NOUN()way	ADP()across	DET()the	ADJ()powdery	NOUN()rubble	PUNCT().		
+PROPN()Bill	VERB()wiped	DET()the	NOUN()sweat	ADP()off	ADJ()his	NOUN()forehead	PUNCT(),	VERB()scratched	ADP()at	ADJ()other	NOUN()places	ADJ()that	VERB()were	VERB()itching	PUNCT(),	CCONJ()and	VERB()stared	PART()down	ADP()at	DET()the	ADJ()small	NOUN()disk	ADP()of	PROPN()Earth	PUNCT().		
+PRON()We	VERB()'ve	VERB()got	DET()a	NOUN()doctor	VERB()coming	ADV()over	PUNCT(),	PROPN()Adams	PUNCT().		
+PRON()He	VERB()got	PART()up	ADV()shakily	PUNCT(),	VERB()moving	ADP()toward	DET()the	NOUN()dust	NOUN()trap	ADJ()that	VERB()had	VERB()been	VERB()running	ADV()steadily	PUNCT().		
+PRON()They	VERB()could	VERB()send	VERB()cutting	NOUN()equipment	ADP()with	DET()the	NOUN()doctor	CCONJ()and	VERB()pick	PART()up	DET()the	NOUN()things	ADV()later	PUNCT().		
+PRON()He	VERB()let	DET()the	NOUN()grapples	VERB()hook	DET()the	NOUN()suit	ADP()off	PRON()him	ADV()as	ADV()soon	ADP()as	DET()the	ADJ()outer	NOUN()seal	VERB()was	VERB()shut	CCONJ()and	VERB()went	ADP()into	DET()a	ADJ()whirling	ADJ()dervish	NOUN()act	PUNCT().		
+VERB()Give	DET()all	NOUN()details	PUNCT()!	PUNCT()"		
+DET()That	VERB()helped	PRON()him	VERB()get	ADJ()his	NOUN()emotions	ADP()under	NOUN()control	PUNCT().		
+PRON()I	VERB()started	PART()to	VERB()bring	PRON()them	PUNCT().		
+PRON()They	VERB()were	ADV()as	ADJ()much	ADP()in	DET()the	NOUN()dark	ADP()about	DET()this	ADP()as	PRON()he	VERB()was	PUNCT(),	CCONJ()but	PRON()they	VERB()had	DET()a	ADJ()better	NOUN()background	ADP()for	VERB()guessing	CCONJ()and	NOUN()trial	CCONJ()and	NOUN()error	PUNCT().		
+NOUN()Ames	VERB()caught	ADJ()his	NOUN()arm	PUNCT().		
+PRON()You	VERB()can	VERB()print	PRON()them	ADV()right	ADP()on	DET()the	NOUN()metal	PUNCT(),	VERB()seal	DET()that	ADP()in	DET()a	NOUN()can	PUNCT(),	CCONJ()and	VERB()leave	PRON()it	ADP()for	DET()the	NOUN()rocket	ADJ()that	VERB()'s	VERB()bringing	DET()the	NOUN()doctor	PUNCT().		
+ADV()Down	ADV()there	PUNCT(),	NOUN()men	VERB()would	VERB()be	VERB()sweating	ADP()with	PRON()him	PUNCT(),	VERB()going	ADJ()crazy	VERB()trying	PART()to	VERB()do	NOUN()something	PUNCT().		
+PRON()He	VERB()paused	ADP()for	DET()a	ADJ()final	ADJ()good	NOUN()scratch	PUNCT(),	CCONJ()and	ADV()then	DET()the	NOUN()grapples	VERB()took	PART()over	PUNCT().		
+DET()All	PRON()he	VERB()wanted	VERB()was	DET()a	NOUN()chance	PART()to	VERB()get	ADP()over	DET()this	NOUN()disease	ADP()before	PRON()it	VERB()killed	PRON()him	PUNCT().		
+DET()Those	NOUN()symptoms	VERB()are	ADV()perfectly	ADJ()normal	PUNCT().	PUNCT()"		
+PRON()He	VERB()began	PUNCT(),	VERB()giving	ADJ()all	DET()the	NOUN()information	PRON()he	VERB()had	PUNCT(),	ADP()from	DET()the	ADJ()first	NOUN()itching	ADP()through	DET()the	NOUN()rash	CCONJ()and	DET()the	NOUN()fever	PUNCT().		
+PRON()He	VERB()'d	VERB()written	PART()up	DET()the	NOUN()accounts	PUNCT().		
+PRON()We	VERB()'ll	VERB()get	DET()a	ADJ()medical	NOUN()kit	ADP()up	ADP()to	DET()the	PROPN()Moon	ADP()for	PRON()you	PUNCT().	PUNCT()"		
+PUNCT()"	ADJ()Your	NOUN()symptoms	VERB()make	DET()no	NOUN()sense	PUNCT(),	PUNCT()"	PRON()he	VERB()summarized	PUNCT().		
+PRON()He	VERB()yanked	PART()out	ADJ()his	NOUN()bunk	CCONJ()and	VERB()slumped	ADP()into	PRON()it	PUNCT(),	VERB()curling	PART()up	ADV()as	ADV()much	ADP()as	DET()the	NOUN()itching	VERB()would	VERB()permit	PUNCT().		
+CCONJ()But	ADJ()his	NOUN()face	VERB()was	ADV()still	ADJ()sober	PUNCT().		
+PRON()We	VERB()'re	VERB()rushing	DET()the	NOUN()construction	PUNCT(),	CCONJ()but	PRON()we	VERB()need	DET()the	NOUN()ship	ADP()for	DET()the	ADJ()second	NOUN()run	ADP()if	PRON()we	VERB()'re	PART()to	VERB()claim	ADJ()our	ADJ()fair	NOUN()territory	PUNCT().		
+ADV()Halfway	ADP()to	DET()the	NOUN()supplies	PRON()he	VERB()felt	DET()the	NOUN()itching	VERB()come	ADV()back	PUNCT(),	CCONJ()and	PRON()he	VERB()slithered	CCONJ()and	VERB()wriggled	ADV()around	PUNCT(),	VERB()trying	PART()to	VERB()scratch	ADJ()his	NOUN()skin	ADP()against	ADJ()his	NOUN()clothing	PUNCT().		
+CCONJ()But	ADV()somehow	PRON()they	VERB()made	DET()the	NOUN()ship	PUNCT(),	CCONJ()and	VERB()were	VERB()getting	ADP()out	ADP()of	DET()the	NOUN()suitsBill	ADV()first	PUNCT(),	ADV()then	DET()the	NOUN()doctor	PUNCT(),	VERB()using	DET()the	NOUN()grapples	ADP()under	PROPN()Bill	PART()'s	NOUN()guidance	PUNCT().		
+NOUN()Things	VERB()were	DET()a	ADV()little	ADJ()worse	ADV()when	DET()the	ADJ()first	NOUN()squeals	VERB()came	ADP()from	DET()the	NOUN()radar	NUM()two	NOUN()days	ADV()later	PUNCT().		
+PRON()He	VERB()flushed	PRON()it	PART()down	PUNCT(),	ADJ()his	NOUN()head	VERB()turning	PART()in	NOUN()circles	PUNCT(),	CCONJ()and	VERB()went	ADP()to	DET()the	NOUN()radar	PUNCT().		
+ADV()Then	PRON()he	VERB()swore	PUNCT(),	VERB()gulping	PART()down	ADJ()more	ADP()of	DET()the	NOUN()pills	ADV()where	PRON()they	VERB()were	VERB()waiting	ADP()for	PRON()him	PUNCT().		
+ADV()Again	PUNCT(),	ADV()longer	DET()this	NOUN()time	PUNCT(),	DET()the	ADJ()main	NOUN()station	ADJ()hesitated	PUNCT().		
+PROPN()Bill	VERB()swore	PUNCT(),	CCONJ()but	PRON()he	VERB()was	ADP()in	ADJ()his	NOUN()suit	ADV()when	DET()the	NOUN()missile	VERB()landed	PUNCT(),	VERB()heading	PART()out	ADP()across	DET()the	VERB()pumicecovered	NOUN()wastes	ADP()toward	PRON()it	PUNCT().		
+CCONJ()And	ADP()if	DET()the	NOUN()bugs	ADP()in	PRON()him	VERB()happened	PART()to	VERB()like	NOUN()tachiomycetin	PUNCT(),	PRON()he	VERB()would	ADV()n't	VERB()be	ADV()too	ADV()much	ADJ()worse	ADV()off	PUNCT().		
+INTJ()Yeah	PUNCT(),	VERB()insert	DET()the	NOUN()cat	PART()'s	NOUN()fur	NOUN()brushes	ADP()under	DET()the	PUNCT()....	PROPN()Cat	PART()'s	NOUN()fur	PUNCT()?		
+PRON()He	VERB()groped	ADP()into	DET()the	NOUN()supplies	PUNCT(),	VERB()hoping	ADV()there	VERB()would	VERB()be	NOUN()replacements	PUNCT().		
+PUNCT()"	PRON()I	VERB()'ve	VERB()got	DET()a	NOUN()feeling	DET()some	VERB()are	ADJ()due	ADP()to	NUM()one	NOUN()thing	PUNCT(),	DET()some	ADP()to	DET()another	PUNCT().		
+PRON()They	VERB()'d	ADV()already	VERB()been	ADJ()busy	PUNCT(),	PRON()he	VERB()saw	PUNCT(),	ADP()as	PRON()he	VERB()teetered	PART()down	ADP()on	ADJ()his	NOUN()jets	ADP()for	DET()a	NOUN()landing	ADP()on	PROPN()Tycho	PUNCT().		
+VERB()May	ADV()not	VERB()help	PUNCT(),	CCONJ()but	PRON()we	VERB()'re	VERB()trying	DET()a	NOUN()mixture	ADP()of	DET()the	NOUN()antibiotics	PUNCT().		
+CCONJ()And	ADV()where	VERB()were	PRON()they	VERB()getting	DET()a	NOUN()doctor	ADJ()crazy	ADV()enough	PART()to	VERB()take	DET()a	NOUN()chance	ADP()with	PRON()him	PUNCT()?		
+CCONJ()But	DET()the	ADJ()other	NOUN()man	VERB()was	VERB()making	DET()no	ADJ()real	NOUN()progress	ADV()at	ADV()all	PUNCT().		
+ADP()Like	DET()an	NOUN()automaton	PUNCT(),	PRON()he	VERB()bent	ADV()forward	PUNCT(),	ADJ()his	ADJ()other	NOUN()hand	VERB()groping	ADP()for	DET()the	NOUN()mirror	ADJ()that	VERB()should	VERB()be	ADP()in	NUM()one	ADP()of	DET()the	NOUN()drawers	PUNCT().		
+NOUN()Antigravity	PUNCT()!	PUNCT()”	ADJ()His	NOUN()voice	VERB()was	ADJ()unbelieving	ADP()as	PRON()he	VERB()turned	ADJ()his	NOUN()head	PART()to	VERB()face	DET()the	ADJ()older	NOUN()man	PUNCT().		
+DET()An	ADJ()immortal	NOUN()man	VERB()had	ADV()suddenly	VERB()found	NOUN()death	VERB()hovering	ADP()on	ADJ()his	NOUN()trail	PUNCT().		
+PROPN()Amanda	ADV()probably	VERB()would	VERB()be	ADJ()willing	PART()to	VERB()marry	PRON()him	PUNCT();	PRON()she	VERB()’d	VERB()hinted	ADP()at	DET()a	NOUN()date	ADV()once	PUNCT().		
+NOUN()Earth	VERB()was	VERB()becoming	DET()a	NOUN()backwater	NOUN()world	PUNCT();	DET()no	ADJ()real	NOUN()progress	VERB()had	VERB()been	VERB()made	ADP()in	NUM()two	NOUN()centuries	PUNCT();	DET()the	ADJ()young	NOUN()men	VERB()were	VERB()sent	PART()out	ADV()as	ADV()soon	ADP()as	ADJ()their	ADJ()first	NUM()fifty	NOUN()years	ADP()of	NOUN()education	VERB()were	VERB()finished	PUNCT(),	CCONJ()and	DET()the	ADJ()older	NOUN()men	VERB()were	ADV()too	ADJ()conservative	ADP()for	ADV()really	ADJ()new	NOUN()thinking	PUNCT().		
+DET()That	NOUN()missile	VERB()reached	PROPN()Sirius	ADP()in	ADJ()less	ADP()than	NUM()ten	NOUN()days	PUNCT().		
+PRON()He	VERB()’d	ADV()only	VERB()skimmed	DET()the	NOUN()report	PUNCT(),	CCONJ()but	DET()this	VERB()made	DET()no	NOUN()sense	PUNCT().		
+NOUN()Heroism	VERB()had	VERB()belonged	ADP()to	DET()those	NOUN()who	VERB()knew	ADJ()their	NOUN()days	VERB()were	VERB()numbered	PUNCT(),	ADV()anyhow	PUNCT().		
+ADV()Now	ADV()there	VERB()was	DET()no	VERB()escaping	PRON()it	PUNCT().		
+PRON()I	VERB()spent	DET()the	NOUN()night	ADP()at	PROPN()Medical	PROPN()Center	VERB()going	PART()up	DET()the	NOUN()ranks	ADP()until	PRON()I	VERB()found	NOUN()men	NOUN()who	ADV()really	VERB()know	ADP()about	PRON()it	PUNCT().		
+PRON()He	VERB()got	PART()up	ADV()once	PART()to	VERB()stare	ADP()at	PRON()himself	ADP()in	DET()the	NOUN()mirror	PUNCT().		
+PROPN()Cobb	VERB()wants	PRON()you	PART()to	VERB()come	ADP()to	ADJ()his	NOUN()office	ADP()at	ADV()once	PUNCT(),	NOUN()sir	PUNCT(),	PUNCT()”	PRON()he	VERB()said	PUNCT(),	VERB()dropping	ADP()to	ADJ()his	NOUN()knee	PART()to	VERB()help	PROPN()Giles	ADP()with	ADJ()his	NOUN()shoes	PUNCT().		
+NOUN()Eternity	PUNCT()!		
+ADV()Then	PRON()it	VERB()was	ADV()no	ADV()longer	ADJ()necessary	PART()to	VERB()frighten	PRON()himself	PUNCT().		
+PRON()He	VERB()felt	VERB()choked	PUNCT(),	VERB()imprisoned	PUNCT(),	ADV()somehow	VERB()lost	PUNCT();	DET()the	NOUN()city	ADP()beyond	DET()the	NOUN()window	VERB()blurred	ADP()as	PRON()he	VERB()studied	PRON()it	PUNCT(),	CCONJ()and	PRON()he	VERB()swung	DET()the	NOUN()chair	ADV()back	ADV()so	ADV()violently	ADP()that	ADJ()his	NOUN()hand	VERB()jerked	ADV()painfully	ADP()on	DET()the	NOUN()forelock	PRON()he	VERB()’d	VERB()been	VERB()twisting	PUNCT().		
+PUNCT()*	SPACE()      	PUNCT()*	SPACE()      	PUNCT()*	SPACE()      	PUNCT()*	SPACE()      	PUNCT()*	ADV()OUTSIDE	ADP()ON	DET()the	NOUN()street	PUNCT(),	PRON()he	VERB()looked	PART()up	ADP()at	DET()the	PROPN()Sun	CCONJ()and	ADV()then	ADP()at	DET()the	NOUN()buildings	VERB()built	PART()to	VERB()last	ADP()for	NOUN()thousands	ADP()of	NOUN()years	PUNCT().		
+ADP()For	NOUN()everybody	PUNCT(),	ADV()not	ADV()just	PRON()you	PUNCT().	PUNCT()”	PRON()It	VERB()was	DET()no	NOUN()consolation	PUNCT().		
+ADJ()Geriatric	NOUN()knowledge	VERB()is	ADV()still	ADP()on	NOUN()record	PUNCT().		
+PRON()He	VERB()listened	ADP()as	PROPN()Giles	VERB()stumbled	PART()out	ADJ()his	NOUN()story	PUNCT().		
+PRON()He	VERB()was	VERB()passing	ADP()near	DET()the	NOUN()club	CCONJ()and	VERB()started	PART()to	VERB()slow	PUNCT().		
+PRON()He	VERB()snapped	DET()the	NOUN()switch	CCONJ()and	VERB()saw	DET()the	NOUN()screen	NOUN()light	PART()up	PUNCT(),	ADP()with	DET()the	NOUN()people	ADV()still	ADP()in	DET()the	ADJ()odd	PUNCT(),	NOUN()wheelless	NOUN()vehicle	ADP()on	DET()the	ADJ()alien	NOUN()planet	PUNCT().		
+ADV()Maybe	ADP()in	NUM()two	NOUN()centuries	PRON()we	VERB()’d	VERB()have	DET()a	ADP()through	NOUN()route	VERB()charted	ADP()to	PROPN()Sirius	PUNCT().		
+ADP()If	PRON()he	VERB()looked	DET()that	NOUN()bad—	CCONJ()But	PROPN()Jordan	VERB()was	ADV()n’t	VERB()looking	ADP()at	PRON()him	PUNCT();	DET()the	NOUN()man	PART()’s	NOUN()interest	VERB()lay	ADP()in	DET()the	VERB()projected	NOUN()picture	ADP()from	PROPN()Harry	PUNCT(),	ADP()across	DET()the	NOUN()desk	ADP()from	DET()the	NOUN()communicator	PUNCT().		
+VERB()Suppose	PRON()he	VERB()could	ADV()n’t	VERB()rejuvenate	ADJ()all	DET()the	NOUN()way	PUNCT()?		
+DET()The	NOUN()hollows	VERB()were	ADV()still	ADV()there	CCONJ()and	DET()the	NOUN()circles	ADP()under	ADJ()his	NOUN()eyes	PUNCT().		
+PRON()He	VERB()was	VERB()getting	ADV()positively	ADJ()childish	PUNCT()!		
+PRON()He	VERB()’d	VERB()grown	ADJ()old	CCONJ()and	PRON()he	VERB()’d	VERB()grow	ADJ()older	PUNCT().		
+DET()A	NOUN()statement	ADP()that	NOUN()lightning	VERB()had	ADV()never	VERB()struck	DET()a	NOUN()house	VERB()was	DET()no	NOUN()guarantee	ADP()that	PRON()it	ADV()never	VERB()would	PUNCT().		
+NOUN()What	PRON()he	VERB()needed	VERB()was	DET()a	ADJ()good	NOUN()night	PART()’s	NOUN()sleep	ADP()after	DET()a	ADJ()little	NOUN()relaxation	PUNCT().		
+ADV()How	PUNCT()—	ADV()how	ADJ()long	PUNCT()?	PUNCT()”	PROPN()Cobb	VERB()spread	ADJ()his	NOUN()hands	ADV()unhappily	PUNCT().		
+PROPN()Giles	VERB()had	ADV()almost	VERB()forgotten	PRON()it	PUNCT(),	CCONJ()but	ADV()there	VERB()was	ADV()still	DET()the	ADJ()same	NOUN()grin	ADV()there	PUNCT().		
+PRON()I	VERB()was	NUM()one	ADP()of	DET()the	ADJ()first	NUM()million	NOUN()cases	PUNCT(),	ADV()when	DET()a	NOUN()lot	ADP()of	NOUN()people	VERB()could	ADV()n’t	VERB()rejuvenate	ADV()at	ADV()all	PUNCT(),	CCONJ()and	PRON()I	VERB()had	DET()no	NOUN()trouble	ADV()even	ADV()then	PUNCT().	PUNCT()”	PROPN()Cobb	VERB()considered	PRON()it	PUNCT(),	VERB()hesitated	ADP()as	ADP()if	VERB()making	PART()up	ADJ()his	NOUN()mind	PART()to	VERB()be	ADJ()frank	ADP()against	ADJ()his	ADJ()better	NOUN()judgment	PUNCT().		
+PROPN()Dr.		
+VERB()Would	DET()that	VERB()reduce	DET()the	NOUN()slice	ADP()of	NOUN()eternity	ADP()that	NOUN()rejuvenation	VERB()meant	PUNCT()?		
+CCONJ()And	DET()the	NOUN()effect	VERB()is	ADJ()cumulative	PUNCT().		
+DET()The	NOUN()worry	VERB()nagged	ADP()at	PRON()him	ADJ()all	DET()the	NOUN()way	ADV()back	PUNCT().		
+PRON()We	VERB()know	DET()the	NOUN()drive	NOUN()works	PUNCT().		
+ADV()Even	ADJ()such	NOUN()things	ADP()as	NOUN()cancer	VERB()could	VERB()be	VERB()willed	ADP()out	ADP()of	NOUN()existence	PUNCT()—	VERB()provided	DET()the	NOUN()brain	VERB()could	VERB()be	VERB()reached	ADV()far	ADP()below	DET()the	ADJ()conscious	NOUN()level	CCONJ()and	VERB()forced	PART()to	VERB()operate	PUNCT().		
+PROPN()Giles	VERB()nodded	PUNCT(),	VERB()got	PART()out	CCONJ()and	VERB()headed	ADP()down	DET()the	NOUN()hall	ADV()uncertainly	PUNCT().		
+PRON()He	VERB()looked	ADV()no	ADV()better	DET()the	ADJ()next	NOUN()morning	ADV()when	PRON()he	ADV()finally	VERB()dragged	PRON()himself	PART()up	ADP()from	DET()the	ADJ()little	NOUN()sleep	PRON()he	VERB()’d	VERB()managed	PART()to	VERB()get	PUNCT().		
+PRON()I	VERB()ca	ADV()n’t	VERB()see	DET()any	ADJ()other	NOUN()explanation	PUNCT().		
+NOUN()Others	VERB()involved	ADJ()complicated	ADJ()little	NOUN()gadgets	ADJ()that	VERB()ran	ADP()over	ADJ()his	NOUN()body	PUNCT(),	ADP()while	NOUN()meters	NOUN()bobbed	CCONJ()and	VERB()wiggled	PUNCT().		
+ADJ()Their	NOUN()eternity	VERB()was	ADV()no	ADV()longer	DET()a	NOUN()part	ADP()of	PRON()him	PUNCT().		
+ADV()Just	ADV()how	ADJ()bad	VERB()did	PRON()he	VERB()look	PUNCT()?		
+ADV()So	PRON()we	VERB()can	VERB()send	DET()a	NOUN()message	ADP()on	DET()the	NOUN()shuttle	PUNCT(),	VERB()begging	ADP()for	ADJ()their	NOUN()secret	ADP()in	DET()a	NOUN()couple	ADP()of	NUM()hundred	NOUN()years	PUNCT()!		
+CCONJ()And	PRON()we	ADV()still	VERB()would	ADV()n’t	VERB()have	VERB()proved	PRON()it	ADJ()safe	ADP()for	ADJ()human	NOUN()pilots	PUNCT().		
+PRON()It	VERB()was	NOUN()none	ADP()of	ADJ()their	NOUN()business	PUNCT().		
+PRON()He	VERB()could	VERB()feel	PRON()it	PUNCT().		
+ADV()There	VERB()were	ADJ()other	ADJ()white	NOUN()strands	ADP()in	ADJ()his	ADJ()dark	NOUN()hair	PUNCT().		
+ADV()Maybe	ADP()if	PRON()we	VERB()put	PART()in	ADJ()stronger	NOUN()signaling	NOUN()transmitters	PUNCT()....	PUNCT()”	INTJ()Yeah	PUNCT().		
+PRON()He	VERB()was	ADV()n’t	ADJ()ready	PART()to	VERB()face	PROPN()Jordan	ADV()yet	PUNCT().		
+ADV()Surely	PRON()you	VERB()did	ADV()n’t	VERB()think	NOUN()people	VERB()could	VERB()miss	DET()that	ADP()in	DET()this	NOUN()day	CCONJ()and	NOUN()age	PUNCT()?		
+ADJ()Funny	PUNCT(),	PRON()he	VERB()could	ADV()n’t	VERB()picture	ADV()really	VERB()losing	ADJ()his	NOUN()temper	ADV()here	PUNCT().		
+ADV()Maybe	VERB()trying	NOUN()family	NOUN()life	ADV()again	VERB()would	VERB()give	PRON()him	DET()some	ADJ()new	NOUN()interests	PUNCT().		
+DET()That	VERB()’s	DET()all	ADP()for	ADV()now	PUNCT(),	PROPN()Mr.	PROPN()Giles	PUNCT().		
+PRON()He	VERB()fought	ADP()that	PART()off	PUNCT(),	CCONJ()but	PRON()he	VERB()could	ADV()n’t	VERB()escape	DET()the	ADJ()nagging	NOUN()doubts	ADP()at	DET()the	NOUN()doctor	PART()’s	NOUN()words	PUNCT().		
+PRON()He	ADV()barely	VERB()mentioned	VERB()being	VERB()married	ADP()on	DET()the	NOUN()way	CCONJ()or	ADJ()his	NOUN()dozen	NOUN()children	PUNCT(),	CCONJ()but	VERB()filled	ADJ()most	ADP()of	DET()the	NOUN()frame	ADP()with	ADJ()glowing	NOUN()description	CCONJ()and	DET()a	NOUN()plea	ADP()for	ADJ()his	NOUN()father	PART()to	VERB()join	PRON()him	ADV()there	PUNCT()!		
+NOUN()Rats	VERB()do	ADV()n’t	VERB()have	NOUN()minds	ADJ()that	VERB()could	VERB()show	DET()any	ADJ()real	NOUN()damage	ADJ()such	ADP()as	DET()the	NOUN()loss	ADP()of	NOUN()power	PART()to	VERB()rejuvenate	PUNCT().		
+VERB()Drat	PRON()it	PUNCT()!		
+ADV()Now	PRON()he	VERB()managed	DET()the	NOUN()club	ADP()on	DET()a	NOUN()level	ADP()of	NOUN()quasiequality	ADP()with	DET()the	NOUN()members	PUNCT().		
+CCONJ()But	ADP()at	ADJ()last	PRON()they	VERB()were	ADV()through	CCONJ()and	PRON()he	VERB()was	VERB()led	ADP()into	DET()the	ADJ()quiet	NOUN()rejuvenation	NOUN()room	PUNCT(),	ADV()where	DET()the	NOUN()clamps	VERB()were	VERB()adjusted	ADP()about	ADJ()his	NOUN()head	CCONJ()and	DET()the	NOUN()earpieces	VERB()were	VERB()fitted	PUNCT().		
+PUNCT()*	SPACE()      	PUNCT()*	SPACE()      	PUNCT()*	SPACE()      	PUNCT()*	SPACE()      	PUNCT()*	NOUN()GILES	VERB()TRIED	PART()to	VERB()stop	VERB()scaring	PRON()himself	CCONJ()and	ADV()partially	VERB()succeeded	PUNCT(),	ADP()until	PRON()he	VERB()reached	DET()the	NOUN()doctor	PART()’s	NOUN()office	PUNCT().		
+PUNCT()*	SPACE()      	PUNCT()*	SPACE()      	PUNCT()*	SPACE()      	PUNCT()*	SPACE()      	PUNCT()*	PROPN()COBB	VERB()APPEARED	PRON()himself	PUNCT(),	ADP()before	DET()the	NOUN()nurse	VERB()could	VERB()take	PART()over	PUNCT(),	CCONJ()and	VERB()led	PROPN()Giles	ADP()into	DET()a	NOUN()room	ADP()with	DET()an	ADJ()oldfashioned	NOUN()desk	CCONJ()and	NOUN()chairs	ADJ()that	ADV()almost	VERB()concealed	DET()the	NOUN()cabinets	ADP()of	NOUN()equipment	ADP()beyond	PUNCT().		
+PRON()We	VERB()’ll	VERB()know	ADP()by	ADV()then	ADP()whether	PRON()you	VERB()’ll	VERB()need	ADJ()more	NOUN()treatment	PUNCT().		
+VERB()Find	PRON()me	NUM()one	NOUN()volunteer	PUNCT().		
+CCONJ()And	ADV()even	ADP()if	PROPN()Exodus	ADV()ever	VERB()got	DET()the	NOUN()superlight	VERB()drive	VERB()working	PUNCT(),	ADV()there	VERB()was	DET()no	NOUN()reason	PRON()he	VERB()should	VERB()give	PART()up	ADJ()his	NOUN()work	PUNCT().		
+PRON()He	VERB()had	DET()no	NOUN()desire	PART()to	VERB()spend	NUM()ninety	NOUN()years	VERB()cooped	PART()up	ADP()with	DET()a	NOUN()bunch	ADP()of	ADJ()callow	ADJ()young	NOUN()emigrants	PUNCT(),	ADV()even	ADP()in	NUM()one	ADP()of	DET()the	ADJ()improved	PROPN()Exodus	NOUN()shuttles	PUNCT().		
+PRON()He	VERB()groped	ADP()for	DET()the	NOUN()lines	CCONJ()and	VERB()could	ADV()n’t	VERB()remember	PUNCT().		
+ADP()In	DET()the	NOUN()future	PUNCT(),	NOUN()men	VERB()would	VERB()need	DET()the	NOUN()superlight	VERB()drive	ADP()if	PRON()they	VERB()were	PART()to	VERB()span	ADV()much	ADJ()more	ADP()of	DET()the	NOUN()Universe	ADP()than	ADV()now	PUNCT().		
+PRON()We	VERB()’ve	VERB()got	DET()a	ADJ()longer	NOUN()time	NOUN()scale	ADP()than	PRON()we	VERB()used	PART()to	VERB()have	PUNCT()—	CCONJ()but	PRON()it	VERB()’s	ADP()in	NOUN()centuries	PUNCT(),	ADV()not	ADP()in	NOUN()eons	PUNCT().		
+VERB()Presetting	DET()a	NOUN()course	VERB()may	VERB()take	NOUN()centuries	PUNCT(),	ADP()if	PRON()we	VERB()can	ADV()ever	VERB()master	PRON()it	PUNCT().		
+NOUN()Today	PUNCT(),	ADV()though	PUNCT(),	NOUN()nothing	VERB()seemed	PART()to	VERB()help	PUNCT().		
+ADV()Now	ADP()that	PRON()he	VERB()knew	ADV()there	VERB()was	NOUN()reason	ADP()for	ADJ()his	NOUN()fear	PUNCT(),	PRON()it	VERB()seemed	PART()to	VERB()vanish	PUNCT(),	VERB()leaving	DET()a	NOUN()coldness	ADJ()that	VERB()numbed	PRON()him	PUNCT().		
+ADV()Then	PRON()it	VERB()had	VERB()required	NOUN()months	ADP()of	ADJ()mental	NOUN()training	PUNCT(),	VERB()followed	ADP()by	ADJ()crude	ADJ()mechanical	CCONJ()and	NOUN()drug	NOUN()hypnosis	ADP()for	ADJ()other	NOUN()months	PUNCT().		
+PRON()They	VERB()went	ADP()down	DET()the	NOUN()hall	ADP()to	DET()another	NOUN()office	PUNCT(),	ADV()where	PROPN()Giles	VERB()waited	ADV()outside	ADP()while	PROPN()Cobb	VERB()conferred	ADP()with	DET()another	NOUN()doctor	CCONJ()and	NOUN()technician	PUNCT(),	ADP()with	ADJ()much	NOUN()waving	ADP()of	NOUN()charts	PUNCT().		
+PRON()He	VERB()was	ADV()still	ADJ()young	PUNCT()—	NUM()one	ADP()of	DET()the	ADJ()few	ADP()under	DET()a	NUM()hundred	NOUN()who	VERB()’d	VERB()escaped	NOUN()deportation	ADP()because	ADP()of	ADJ()special	NOUN()ability	PUNCT()—	CCONJ()and	NOUN()patience	VERB()was	ADV()still	ADJ()foreign	ADP()to	PRON()him	PUNCT().		
+PRON()He	VERB()remembered	ADV()once	ADV()when	PRON()he	VERB()’d	VERB()had	DET()a	NOUN()cold	PUNCT(),	ADP()before	PRON()they	ADV()finally	VERB()licked	ADP()that	PUNCT();	PROPN()Harry	VERB()had	VERB()been	DET()a	ADJ()complete	NOUN()nuisance	PUNCT(),	VERB()running	ADV()around	ADP()with	ADJ()various	NOUN()nostrums	PUNCT(),	VERB()giving	PRON()him	DET()no	NOUN()peace	PUNCT().		
+PRON()It	VERB()may	VERB()take	ADV()longer	PUNCT(),	CCONJ()but	ADV()eventually	PRON()we	VERB()’ll	VERB()find	DET()a	NOUN()way	PUNCT().		
+ADV()Only	ADJ()his	ADJ()youngest	NOUN()son	VERB()would	VERB()have	VERB()sent	DET()an	ADJ()elaborate	NOUN()tercentenary	VERB()greeting	NOUN()verse	PUNCT()—	NOUN()one	ADJ()that	VERB()would	VERB()arrive	NUM()ninety	NOUN()years	ADV()too	ADV()late	PUNCT()!		
+PRON()You	VERB()mean	PUNCT()—	PRON()it	VERB()did	ADV()n’t	VERB()take	PUNCT()?		
+PROPN()Giles	VERB()nodded	ADV()mechanically	PUNCT().		
+PRON()It	VERB()’s	DET()a	NOUN()shock	ADP()to	PRON()me	PUNCT(),	ADV()too	PUNCT(),	PROPN()Mr.	PROPN()Giles	PUNCT().		
+CCONJ()Yet	PRON()he	VERB()was	ADV()n’t	VERB()swallowed	ADP()by	PRON()them	PUNCT(),	ADP()as	PRON()he	VERB()might	VERB()be	ADP()by	DET()a	NOUN()family	PUNCT().		

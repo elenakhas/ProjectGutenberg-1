@@ -23,7 +23,7 @@ def _posdistributions(pos_dist, select_postags):
     '''
     fig, ax = plt.subplots()
     plt.title("Author POS distribution")
-    for i in ["pos_"+postag.lower() for postag in select_postags]:
+    for i in ["pos_"+postag for postag in select_postags]:
         ax.bar(i, pos_dist[i])
     plt.show()
 

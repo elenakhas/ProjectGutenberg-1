@@ -1,4 +1,4 @@
-import spacy, re, glob
+import spacy, re, glob, time
 import pandas as pd 
 
 # !pip install benepar[cpu]
@@ -31,8 +31,8 @@ concrete_df["Conc.M"]=concrete_df["Conc.M"].apply(lambda x: x-2.5)
 
 ######## __processing functions__ #########
 
-def process_one_author(author_id, functions, tag = None, readpath = "./data/booksample_txt/", 
-                       write_path="./processeddata/"):
+def process_one_author(author_id, functions, readpath = "./data/booksample_txt/", 
+                       write_path="./processeddata/data_rawtxt/", overwrite_files = False):
     '''A wrapper fucntion that processed all the books per one author stored in corpus
     Inputs: author_id - the number of the author in a corpus;
             functions - an iterable of functions 
@@ -49,28 +49,40 @@ def process_one_author(author_id, functions, tag = None, readpath = "./data/book
     
     # 2. create directory if it's not there
     try: 
-        os.mkdir(write_path) 
+        os.mkdir(write_path)
     except: 
         pass 
     
-    # 3. open/create the files and write to it. we are writing lines, 
+    # 3a. if user passes overwrite_files = True into function. open the files of the author 
+    # with 'w' and close them (to wipe them)
+    file_exts = ["_sentences.txt","_tokens.txt","_lemmas.txt","_pos.txt","_poswordpairs.txt",
+                 "_parsetags.txt","_ners.txt","_concreteness.txt"]
+    if overwrite_files == True:
+        for file_ext in file_exts:
+            try:
+                open(write_path+author_id+file_ext, "w").close()
+            except: 
+                pass 
+        
+    #3b. open/create the files and write to it. we are writing lines, 
     # so we use "a+" to append instead of "w" or its variants
     sentencesfile = open(write_path+author_id+"_sentences.txt", "a+")
     tokensfile = open(write_path+author_id+"_tokens.txt", "a+")
     lemmasfile = open(write_path+author_id+"_lemmas.txt", "a+")
     posfile = open(write_path+author_id+"_pos.txt", "a+")
+    poswordpairsfile = open(write_path+author_id+"_poswordpairs.txt", "a+")
     parsetagsfile = open(write_path+author_id+"_parsetags.txt", "a+")
     nersfile = open(write_path+author_id+"_ners.txt", "a+")
     concretenessfile = open(write_path+author_id+"_concreteness.txt", "a+")
     # a filelist to help with closing all the files at the end with a dict comprehension
     filelist = {"sentences":sentencesfile, "lemmas":lemmasfile,
                 "tokens":tokensfile, "postags":posfile, "parsetags":parsetagsfile, 
-                "namedentities":nersfile, "concreteness":concretenessfile}
+                "poswordpairs":poswordpairsfile, "namedentities":nersfile, "concreteness":concretenessfile}
     
     # 4. a "global" dictionary storing feature information about every sentences. the keys of the 
     # dictionary are the features. 
-    results_dict = {"sentences": list(), "lemmas": list(), "tokens": list(), "postags": list(),
-        "parsetags": list(), "namedentities": list(), "concreteness": list(),}
+    results_dict = {"sentences": list(), "lemmas": list(), "tokens": list(), "postags": list(), 
+                    "poswordpairs": list(), "parsetags": list(), "namedentities": list(), "concreteness": list(),}
     
     # 5. go through every sentence of the author's 
     for sentence in all_sents:
@@ -111,20 +123,22 @@ def process_one_author(author_id, functions, tag = None, readpath = "./data/book
                 filelist[_function_name].write("\n")
                 # add to local results container
                 _result.extend(_function_results)
-                               
-            # for all other functions, check if it has a parameter "tag"
+            
+            # for get_poswordpairs, special treatment because the results are a set of tuples
+            elif function == get_poswordpairs: 
+                _function_name, _function_results = function(spacysentdoc)
+                # a special concat of the tuples for writing to file
+                _function_results_str = ["()".join(ele) for ele in _function_results]
+                filelist[_function_name].write("\t".join(_function_results_str)+"\t\t")
+                filelist[_function_name].write("\n")
+                _result.extend(_function_results)
+            
+            # for all other functions
             else:
-                if tag == None:
-                    _function_name, _function_results = function(spacysentdoc)
-                    filelist[_function_name].write("\t".join(_function_results)+"\t\t")
-                    filelist[_function_name].write("\n")
-                    _result.extend(_function_results)
-
-                else:
-                    _function_name, _function_results = function(spacysentdoc, tag)
-                    filelist[_function_name].write("\t".join(_function_results)+"\t\t")
-                    filelist[_function_name].write("\n")
-                    _result.extend(_function_results)
+                _function_name, _function_results = function(spacysentdoc)
+                filelist[_function_name].write("\t".join(_function_results)+"\t\t")
+                filelist[_function_name].write("\n")
+                _result.extend(_function_results)
 
             if _function_name != None:
                 # add to global container 
@@ -138,7 +152,7 @@ def process_one_author(author_id, functions, tag = None, readpath = "./data/book
     # return global container. this contains all the features for every of the author's sentence
     return results_dict
 
-def generate_dataframe(authornum, author_dict, select_postags,select_parsetags):
+def generate_dataframe(authornum, author_dict, select_postags=None, select_parsetags=None):
     '''
     A dictionary containing the features generated from the utils_tokeniser.process_one_author process
     '''
@@ -147,9 +161,17 @@ def generate_dataframe(authornum, author_dict, select_postags,select_parsetags):
     # places, persons and dates. 
     # 1. create a dataframe that appends for each pos tag 
     # 2. create an initial dataframe with n rows, the first column is the authornum, as well as literary movements  
+    if select_postags == None: 
+        # all UD POS tags 
+        select_postags = ["ADJ","ADP","ADV","AUX","CONJ","CCONJ","DET","INTJ","NOUN","NUM",
+                         "PART","PRON","PROPN","PUNCT","SCONJ","SYM","VERB","X","SPACE"]
+    if select_parsetags == None: 
+        select_parsetags = ["S", "NP", "VP"]
     
     author_numsents = len(author_dict['sentences'])
+    # list of author_numsents length, filled with the authornum. for adding to the df at the end (prediction labels) 
     authornum_col = [authornum]*author_numsents
+    
     all_sent = []
     for sentence_num in range(author_numsents):   
         one_sent = {}
@@ -162,7 +184,7 @@ def generate_dataframe(authornum, author_dict, select_postags,select_parsetags):
                     except: 
                         pass
                 for key2 in pos_counter:
-                    one_sent["pos_"+key2.lower()] = pos_counter[key2][0]
+                    one_sent["pos_"+key2] = pos_counter[key2][0]                
             
             elif key== "parsetags":
                 parse_counter = {i:[0] for i in  select_parsetags}
@@ -172,7 +194,7 @@ def generate_dataframe(authornum, author_dict, select_postags,select_parsetags):
                     except: 
                         pass
                 for key2 in parse_counter:
-                    one_sent["parse_"+key2.lower()] = parse_counter[key2][0]
+                    one_sent["parse_"+key2] = parse_counter[key2][0]
 
             elif key == "namedentities":
                 # under the namedentities key, there are 3 other dictionary keys
@@ -183,16 +205,11 @@ def generate_dataframe(authornum, author_dict, select_postags,select_parsetags):
                 for key2 in ne_dict:
                     one_sent["ne_"+key2] = ne_dict[key2]
 
-            elif key == "concreteness":
+            elif key == "concreteness" or key == "sentences":
                 col_names = key
                 values = author_dict[key][sentence_num]
                 one_sent[key] = values[0]
             
-            elif key == "sentences":
-                col_names = key
-                values = author_dict[key][sentence_num]
-                one_sent[key] = values[0]
-
             else: 
                 col_names = key 
                 values = author_dict[key][sentence_num]
@@ -248,6 +265,15 @@ def get_postags(spacysentdoc):
     '''
     return "postags", [token.pos_ for token in spacysentdoc]
 
+def get_poswordpairs(spacysentdoc):
+    '''Performs postagging on a file
+    Inputs: spaCy annotated document
+    Outputs: a tuple containing the function name and the result (a list of tuples with token)
+    
+    Uses WordNet postags: https://spacy.io/api/annotation#pos-tagging
+    '''
+    return "poswordpairs", [(token.pos_, token.text) for token in spacysentdoc]
+
 def get_parsetags(spacysentdoc):
     '''Parses a sentence using Stanford CoreNLP constituency parsing
     Inputs: a list of sentences
@@ -255,15 +281,19 @@ def get_parsetags(spacysentdoc):
     '''    
     # getting the sentence from the spacysentdoc, so as to align with 
     # all other function methods (to use the process_one_author wrapper function)
-    parsetree = parser.parse(get_sentence(spacysentdoc)[1][0])
-    # find only the non-terminal nodes
-    parsetags_raw = re.findall( r"\[*Tree\('[A-Z]+", parsetree.__repr__()) 
-    # using the nltk.Tree.__repr__ to bypass the common gs installation issue
-    # https://stackoverflow.com/questions/39007755/cant-find-ghostscript-in-nltk?noredirect=1&lq=1
-    
-    # extract only the non-terminal symbol 
-    parsetags = [tag.split("('")[1] for tag in parsetags_raw]
-    return "parsetags", parsetags
+    parsetags=[]
+    try:
+        parsetree = parser.parse(get_sentence(spacysentdoc)[1][0])
+        # find only the non-terminal nodes
+        parsetags_raw = re.findall( r"\[*Tree\('[A-Z]+", parsetree.__repr__()) 
+        # using the nltk.Tree.__repr__ to bypass the common gs installation issue
+        # https://stackoverflow.com/questions/39007755/cant-find-ghostscript-in-nltk?noredirect=1&lq=1
+
+        # extract only the non-terminal symbol 
+        parsetags = [tag.split("('")[1] for tag in parsetags_raw]
+        return "parsetags", parsetags
+    except:
+        return "parsetags", parsetags
 
 def get_namedentities(spacysentdoc):
     ''' Extracts named entities of place, person, date types
