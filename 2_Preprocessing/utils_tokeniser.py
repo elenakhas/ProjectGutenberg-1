@@ -339,7 +339,7 @@ def get_authabstract(author_id, authorabstracts_df, language="en"):
     language value input into the function
     '''
     author_abstracts = authorabstracts_df.loc[author_id]["authorabstracts"]
-    abstract = [authorabstracts_df[language] for i in author_abstracts]
+    abstract = [authorabstracts_df[language] if authorabstracts_df[language] else [] for i in author_abstracts]
     
     return author_id, abstract 
 
