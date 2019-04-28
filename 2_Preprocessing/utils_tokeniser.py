@@ -175,6 +175,8 @@ def generate_dataframe(authornum, author_dict, select_postags=None, select_parse
     all_sent = []
     for sentence_num in range(author_numsents):   
         one_sent = {}
+        # the dict (and subsequent nested dict/list) structure 
+        # is intended for easy and fast conversion to pd.DataFrame at the end
         for key in author_dict:
             if key== "postags":
                 pos_counter = {i:[0] for i in  select_postags}
@@ -216,8 +218,12 @@ def generate_dataframe(authornum, author_dict, select_postags=None, select_parse
                 one_sent[key] = values
              
         all_sent.append(one_sent)
+    # place the sentences into a pandas dataframe
     all_sent_df = pd.DataFrame(all_sent)
+    # add the authornum information as the first column of the df
     all_sent_df.insert(loc=0, column="authornum", value=authornum_col)
+    # lambda expression to calculate the length of the sentence (number of tokens) 
+    # in each row, add the result as a new column in the df. 
     all_sent_df["sent_length"] = all_sent_df["tokens"].apply(lambda x: len(x))
     return all_sent_df
 
@@ -310,7 +316,7 @@ def get_namedentities(spacysentdoc):
     return "namedentities", namedentities
         
 def get_concreteness(spacysentdoc):
-    '''given a list of strings (tokens of a sentence), returns the concreteness
+    '''given a spacysentdoc (tokens of a sentence), returns the concreteness
     score for the sentence. The score is the sum of the score for tokens that can be 
     found in the http://crr.ugent.be/archives/1330 dataset. 
     Inputs: spacysentdoc

@@ -77,6 +77,7 @@ def _compute_globalvocabfreq(dataframe, top_n = 10, ascending=False):
     return dataframe.describe().loc['count'].sort_values(ascending=ascending)[0:top_n]
 
 
+
 def _compute_frequency(data_lists , add_normalisation = None):
     '''
     takes a list of lists (each comprising processed inputs for a particular sentence or document). 
@@ -141,7 +142,7 @@ def _dictcount_maker(row):
     return dictcount
 
 
-def _vectoriser(dictcount_lists):
+def _vectoriser(freqdict_list):
     '''
     
     '''
@@ -155,7 +156,7 @@ def _vectoriser(dictcount_lists):
     # and counts, but zeros and frequencies (at sentence/document level)
     
     vocabulary_set = set()
-    for distcount in dictcount_lists:
+    for distcount in freqdict_list:
         sentence_tokens = set(distcount.keys())
         vocabulary_set.update(sentence_tokens)
     
