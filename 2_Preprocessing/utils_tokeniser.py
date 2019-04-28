@@ -331,14 +331,15 @@ def get_concreteness(spacysentdoc):
             pass
     return "concreteness", [str(round(c_score,3))]
 
-def retrieve_abstract(author_id, all_abstracts_df, language="en"):
+def get_authabstract(author_id, authorabstracts_df, language="en"):
     '''
     searches the dataframe generated from utils_loaddataframe, storing all of an author's information to 
     retrieve a specified author's wikipedia abstracts
-    returns a dictionary containing an author's wikipedia abstracts
+    returns a tuple dictionary containing the author number and an author's wikipedia abstracts matching the 
+    language value input into the function
     '''
-    author_abstracts = all_abstracts_df.loc[author_id]["authorabstracts"]
-    abstract = [author_abstracts[language] for i in author_abstracts]
+    author_abstracts = authorabstracts_df.loc[author_id]["authorabstracts"]
+    abstract = [authorabstracts_df[language] for i in author_abstracts]
     
-    return abstract 
+    return author_id, abstract 
 
