@@ -1,4 +1,4 @@
-import spacy, re, glob, time
+import spacy, re, glob, time, os
 import pandas as pd 
 
 # !pip install benepar[cpu]
@@ -6,8 +6,9 @@ import benepar
 benepar.download('benepar_en2')
 nlp = spacy.load('en_core_web_sm')
 # load Berkeley Neural Parser https://github.com/nikitakit/self-attentive-parser 
+# https://www.aclweb.org/anthology/P18-1249 
 # we use the benepar_en2 pre-trained model for a less resource (memory and run-time) intensive architecture 
-# for our system 
+# for our system. the parser is integrated with spaCy, and the benepar_en2 is under 100mb
 parser = benepar.Parser("benepar_en2")
 spacy_stopwords = spacy.lang.en.stop_words.STOP_WORDS #312 stopwords
 
@@ -31,14 +32,20 @@ concrete_df["Conc.M"]=concrete_df["Conc.M"].apply(lambda x: x-2.5)
 
 ######## __processing functions__ #########
 
-def process_one_author(author_id, functions, readpath = "./data/booksample_txt/", 
+def process_one_author(author_id, functions, sent_per_inst=1, readpath = "./data/booksample_txt/", 
                        write_path="./processeddata/data_rawtxt/", overwrite_files = False):
-    '''A wrapper fucntion that processed all the books per one author stored in corpus
+    '''A wrapper fucntion that processes all the books for one author stored in corpus
     Inputs: author_id - the number of the author in a corpus;
-            functions - an iterable of functions 
-            tag - specific parameter for extraction, such as phrase label or POS tag
-    Outputs: a collection of values for one author (list or dict)
+            functions - an iterable of function(s) 
+            readpath - path to folder that has the .txt files containing the author's texts
+            write_path - path to folder to write the processed data to
+            overwrite_files - boolean; to wipe existing files before starting to write to them
+    Outputs: a collection (a dict) of processed information from one author's texts accepted into the corpus 
+    Result: write, instance by instance, into different .txt files the results of subprocesses called.
     '''    
+    # 0. save each set of data generated with different 
+    write_path = write_path+str(sent_per_inst)+"_sent/"
+    
     # 1. merge all the sentences from the author's books
     _ = []
     for filename in glob.iglob(readpath + author_id + "_" + "*.txt"):
@@ -46,12 +53,15 @@ def process_one_author(author_id, functions, readpath = "./data/booksample_txt/"
             _.extend(file.readlines())
     _ = "\t".join(_) 
     all_sents = _.split("\t")
+    # 1a. depending on user input for sent_per_inst, there may be remainder sentences, cut all_sents here for cleaner 
+    # execution in #5 further down
+    slice_all_sents = int(len(all_sents)/sent_per_inst)*sent_per_inst # index to slice to 
+                                                                      # == total num of sents eventually
+    all_sents=all_sents[0:slice_all_sents]
     
     # 2. create directory if it's not there
-    try: 
-        os.mkdir(write_path)
-    except: 
-        pass 
+    if not os.path.exists(write_path):
+        os.makedirs(write_path)
     
     # 3a. if user passes overwrite_files = True into function. open the files of the author 
     # with 'w' and close them (to wipe them)
@@ -85,24 +95,28 @@ def process_one_author(author_id, functions, readpath = "./data/booksample_txt/"
                     "poswordpairs": list(), "parsetags": list(), "namedentities": list(), "concreteness": list(),}
     
     # 5. go through every sentence of the author's 
-    for sentence in all_sents:
-        
-        # create a spaCy document for the sentence
-        spacysentdoc = create_spacysentdoc(sentence)
+    inst_counter = slice_all_sents/sent_per_inst # number of times we need to recursively process through all_sents 
+    _start, _end = 0, sent_per_inst
+    while inst_counter >0:  # while loop to implement the processing in clusters of sent_per_inst times
+        instance = ".".join(all_sents[_start:_end]) # join all sentences in the cluster, with "." to handle cases
+                                                    # of sentences that don't end with punctuation. 
+
+        # create a spaCy document for the instance (i.e. sent_per_inst number of sentences )
+        spacysentdoc = create_spacysentdoc(instance)
         _function_name = None
-        
+
         for function in functions: 
-            # initialize a list to store the output other than NE
+        # initialize a list to store the output other than NE
             _result = []
             # initialize a storage for NE
             _entities = {"places": list(), "persons": list(), "dates": list()}
-        
+
             # apply a function passed as a parameter
             # for NE extractions, append the output to the lists in the dictionary
             # as keys will remain the same
             if function == get_namedentities:
                 _function_name, _function_results = get_namedentities(spacysentdoc)
-                
+
                 # write to file
                 nersfile.write("\t".join(_function_results["places"])+"\t\t")
                 nersfile.write("\t".join(_function_results["persons"])+"\t\t")
@@ -112,7 +126,7 @@ def process_one_author(author_id, functions, readpath = "./data/booksample_txt/"
                 _entities["places"].extend(_function_results["places"])
                 _entities["persons"].extend(_function_results["persons"])
                 _entities["dates"].extend(_function_results["dates"])
-                               
+
             # for constituency parsing, we don't pass tags into the function
             elif function == get_parsetags: 
                 # support functions return tuples. a result name (for easy file and dict_key 
@@ -123,7 +137,7 @@ def process_one_author(author_id, functions, readpath = "./data/booksample_txt/"
                 filelist[_function_name].write("\n")
                 # add to local results container
                 _result.extend(_function_results)
-            
+
             # for get_poswordpairs, special treatment because the results are a set of tuples
             elif function == get_poswordpairs: 
                 _function_name, _function_results = function(spacysentdoc)
@@ -132,7 +146,7 @@ def process_one_author(author_id, functions, readpath = "./data/booksample_txt/"
                 filelist[_function_name].write("\t".join(_function_results_str)+"\t\t")
                 filelist[_function_name].write("\n")
                 _result.extend(_function_results)
-            
+
             # for all other functions
             else:
                 _function_name, _function_results = function(spacysentdoc)
@@ -146,15 +160,26 @@ def process_one_author(author_id, functions, readpath = "./data/booksample_txt/"
                     results_dict[_function_name].append(_entities)
                 else: 
                     results_dict[_function_name].append(_result)
-    
+       
+        _start += sent_per_inst #update the _start, _end index with the size of sent_per_inst
+        _end += sent_per_inst
+        inst_counter -= 1  # decrement the inst_counter
+        
     # close all the files with list_comp]
     [filelist[file].close() for file in filelist]
+    
     # return global container. this contains all the features for every of the author's sentence
     return results_dict
 
 def generate_dataframe(authornum, author_dict, select_postags=None, select_parsetags=None):
     '''
-    A dictionary containing the features generated from the utils_tokeniser.process_one_author process
+    A dictionary containing the features generated from the process_one_author process
+    Inputs: authornum - str, the unique authornum for the author
+            author_dict - dict, the output for one author from process_one_author
+            select_postags - list, of Universal Dependencies parts-of-speech tags, if none passed, sets to default
+            select_parsetags - list, of Stanford constituency parse tags, if none passed, sets to default
+    Outputs: a pandas dataframe 
+    Result: writes 
     '''
     
     # the structure of the values are lists, except the one for namedentities which has keys for 
@@ -228,7 +253,8 @@ def generate_dataframe(authornum, author_dict, select_postags=None, select_parse
     return all_sent_df
 
 def create_spacysentdoc(sentence):
-    '''Creates a spaCy document object from a string.
+    '''
+    Creates a spaCy document object from a string.
     Inputs: a single string, making up a sentence 
     Outputs: an annotated spaCy document
     '''
@@ -238,35 +264,43 @@ def create_spacysentdoc(sentence):
     return spacysentdoc
 
 def get_sentence(spacysentdoc):
+    '''
+    Returns the sentence that was used to create a spaCy document object.
+    Inputs: spacysentdoc - spaCy document
+    Outputs: a spaCy document with annotated information
+    '''
     return "sentences", [str(spacysentdoc)]
 
 def get_tokens(spacysentdoc):
-    '''Returns tokens in a file
-    Inputs: doc - spaCy document
+    '''
+    Returns tokens in a file
+    Inputs: spacysentdoc - spaCy document
     Outputs: list of strings - lowercased tokens; with removed punctuation
     and custom undesired tokens
     '''
-    return "tokens", [token.text.lower() for token in spacysentdoc if not token.is_punct and not token.text in to_remove]
+    return "tokens", [token.text.lower() for token in spacysentdoc \
+                      if not token.is_punct and token.text not in to_remove]
 
 def get_lemmas(spacysentdoc, tag = None):
     '''
     Lemmatizes the tokens of a specific POS or all tokens
     Inputs: spaCy annotated document, optional - tag, a specified POS tag
     The default value None would process all the tokens
-    Outputs: a list of lemmas for the selected tokens
+    Outputs:a tuple containing the function name and a list of lemmas for the selected tokens
     '''
     if tag == None:
-        lemmas = [token.lemma_ for token in spacysentdoc]
+        lemmas = [token.lemma_ for token in spacysentdoc \
+                  if not token.is_punct and token.text not in to_remove]
     else:
-        lemmas = [token.lemma_ for token in spacysentdoc if token.pos_== tag \
-                  and not token.is_punct and not token.text in to_remove]
+        lemmas = [token.lemma_ for token in spacysentdoc \
+                  if token.pos_== tag and not token.is_punct and token.text not in to_remove]
     return "lemmas", lemmas
 
 def get_postags(spacysentdoc):
-    '''Performs postagging on a file
+    '''
+    Performs postagging on a file
     Inputs: spaCy annotated document
     Outputs: a tuple containing the function name and the result (a list of tuples with token)
-    
     Uses WordNet postags: https://spacy.io/api/annotation#pos-tagging
     '''
     return "postags", [token.pos_ for token in spacysentdoc]
@@ -275,7 +309,6 @@ def get_poswordpairs(spacysentdoc):
     '''Performs postagging on a file
     Inputs: spaCy annotated document
     Outputs: a tuple containing the function name and the result (a list of tuples with token)
-    
     Uses WordNet postags: https://spacy.io/api/annotation#pos-tagging
     '''
     return "poswordpairs", [(token.pos_, token.text) for token in spacysentdoc]
@@ -283,7 +316,7 @@ def get_poswordpairs(spacysentdoc):
 def get_parsetags(spacysentdoc):
     '''Parses a sentence using Stanford CoreNLP constituency parsing
     Inputs: a list of sentences
-    Outputs: a list of parse trees for all the sentences in a list
+    Outputs: a tuple containing the function name and a list of parse trees for all the sentences in a list
     '''    
     # getting the sentence from the spacysentdoc, so as to align with 
     # all other function methods (to use the process_one_author wrapper function)
@@ -304,7 +337,8 @@ def get_parsetags(spacysentdoc):
 def get_namedentities(spacysentdoc):
     ''' Extracts named entities of place, person, date types
     Inputs: spaCy annotated document
-    Outputs: a dictionary witk keys = NE types, values = corresponding tokens
+    Outputs: a tuple containing the function name and a dictionary 
+    with keys = NE types, values = corresponding tokens
     '''
     namedentities = dict()
     places = [ent.text for ent in spacysentdoc.ents if ent.label_ == 'GPE']
