@@ -1,7 +1,14 @@
 import pandas as pd
 import glob
 
-def loaddataframe( datapath="./data"):
+def loaddataframe(datapath="./data"):
+    '''Creates a pandas dataframe from json files extracred from the database. 
+    This dataframe contains informartion about the authors and each author's book separately.
+    It is useful for the classification and clustering task with an author being the label.
+    Inputs: string - path to the json files
+    Outputs: pandas dataframe
+    
+    '''
 
     # load the json mongo exports for the authors and books info into pandas dataframes
     authors_df = pd.read_json(datapath+"/mongo_dumps/jsondump_authors_mongo.json")
@@ -52,8 +59,32 @@ def loaddataframe( datapath="./data"):
                 titles.append(corpus_authorbook_df.loc[row,"books_info"][booknum])
     corpus_authorbook_df.loc[:,"booktitle"] = titles
 
-    # 10 drop the books_info and other columns that are not necessary
+    # 10. drop the books_info and other columns that are not necessary
     corpus_authorbook_df.drop(columns=["books_info", "_id", "authornum_x"], inplace=True)
     corpus_authorbook_df.rename(columns={'authornum_y':'authornum'}, inplace = True)
     
     return corpus_authorbook_df
+
+
+
+def create_daraframe_authors(datapath="./data"):
+    """
+   Creates a pandas dataframe from json files extracred from the database.
+   This dataframe contains informartion about the authors and all author's books united.
+   It is useful to easily visualize statistics about one author, compare them, and apply classification
+   and clustering with literary movements as labels.
+   Inputs: string - path to the json files
+   Outputs: pandas dataframe
+   """
+    authors_df = pd.read_json(datapath+"/mongo_dumps/jsondump_authors_mongo.json")
+    books_df = pd.read_json(datapath+"/mongo_dumps/jsondump_books_mongo.json")
+    # make a copy of authors_df so we don't work on the original data
+    corpus_authors_df = authors_df.copy()
+    # set the index for copy of the authors_df to the values in "authornum"
+    corpus_authors_df = corpus_authors_df.set_index(corpus_authors_df["authornum"])
+    # with the index set, slice the dataframe to get only the authornums present in books_df
+    corpus_authors_df = corpus_authors_df.loc[list(books_df["authornum"].copy().unique())]
+    corpus_authors_df.drop(columns=["_id", "authornum"], inplace=True)
+    corpus_authors_df.reset_index(inplace=True)
+    
+    return corpus_authors_df
